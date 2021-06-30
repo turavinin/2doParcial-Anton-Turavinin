@@ -1,0 +1,20 @@
+#ifndef EEDITORIAL_H_
+#define EEDITORIAL_H_
+#define MAX_CHAR_EDITORIAL 128
+#define CANT_STRUCT_EDITORIAL 2
+
+typedef struct{
+	int id;
+	char nombre[MAX_CHAR_EDITORIAL];
+}eEditorial;
+
+eEditorial* eEditorial_new();
+eEditorial* eEditorial_newParametros(char* idStr, char* nombreStr);
+
+int eEditorial_setId(eEditorial* this, int id);
+int eEditorial_getId(eEditorial* this, int* id);
+
+int eEditorial_setNombre(eEditorial* this, char* nombre);
+int eEditorial_getNombre(eEditorial* this, char* nombre);
+
+#endif

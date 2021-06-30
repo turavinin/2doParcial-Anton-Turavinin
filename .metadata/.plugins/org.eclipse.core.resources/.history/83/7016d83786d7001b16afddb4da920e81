@@ -1,0 +1,13 @@
+#ifndef ELIBRO_H_
+#define ELIBRO_H_
+#define LARGO_CHAR 128
+
+
+typedef struct
+{
+
+}eLibro;
+
+
+
+#endif

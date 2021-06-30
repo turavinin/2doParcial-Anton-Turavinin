@@ -1,0 +1,1263 @@
+19:06:33 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\eEditorial.o" "..\\src\\eEditorial.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\2doParcial-Proyecto.o" "..\\src\\2doParcial-Proyecto.c" 
+..\src\2doParcial-Proyecto.c: In function 'main':
+..\src\2doParcial-Proyecto.c:18:14: warning: unused variable 'listaLibros' [-Wunused-variable]
+  LinkedList* listaLibros = ll_newLinkedList();
+              ^~~~~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\LinkedList.o" "..\\src\\LinkedList.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\bibliotecaUTN-validaciones.o" "..\\src\\bibliotecaUTN-validaciones.c" 
+..\src\bibliotecaUTN-validaciones.c: In function 'utn_getPathLimited':
+..\src\bibliotecaUTN-validaciones.c:601:11: error: assignment to expression with array type
+   auxPath = 0;
+           ^
+19:06:54 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Controller.o" "..\\src\\Controller.c" 
+..\src\Controller.c:12:0: warning: "MAX_CHAR" redefined
+ #define MAX_CHAR 200
+ 
+In file included from ..\src\Controller.c:8:0:
+..\src\eEditorial.h:3:0: note: this is the location of the previous definition
+ #define MAX_CHAR 128
+ 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\bibliotecaUTN-validaciones.o" "..\\src\\bibliotecaUTN-validaciones.c" 
+gcc -o 2doParcial-Proyecto.exe "src\\2doParcial-Proyecto.o" "src\\Controller.o" "src\\LinkedList.o" "src\\bibliotecaUTN-validaciones.o" "src\\eEditorial.o" "src\\eLibro.o" 
+19:09:20 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\bibliotecaUTN-validaciones.o" "..\\src\\bibliotecaUTN-validaciones.c" 
+..\src\bibliotecaUTN-validaciones.c: In function 'utn_getPathLimited':
+..\src\bibliotecaUTN-validaciones.c:587:87: warning: passing argument 1 of 'isspace' makes integer from pointer without a cast [-Wint-conversion]
+  while((strlen(auxPath) > maximosCaracteres || isStringPath(auxPath) == -1 || isspace(auxPath)) && reintentosMaximos > 0)
+                                                                                       ^~~~~~~
+In file included from ..\src\bibliotecaUTN-validaciones.c:4:0:
+d:\programas\mingw\include\ctype.h:79:38: note: expected 'int' but argument is of type 'char *'
+ _CRTIMP __cdecl __MINGW_NOTHROW  int isspace(int);
+                                      ^~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\2doParcial-Proyecto.o" "..\\src\\2doParcial-Proyecto.c" 
+..\src\2doParcial-Proyecto.c: In function 'main':
+..\src\2doParcial-Proyecto.c:25:14: warning: unused variable 'listaLibros' [-Wunused-variable]
+  LinkedList* listaLibros = ll_newLinkedList();
+              ^~~~~~~~~~~
+gcc -o 2doParcial-Proyecto.exe "src\\2doParcial-Proyecto.o" "src\\Controller.o" "src\\LinkedList.o" "src\\bibliotecaUTN-validaciones.o" "src\\eEditorial.o" "src\\eLibro.o" 
+19:10:20 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\bibliotecaUTN-validaciones.o" "..\\src\\bibliotecaUTN-validaciones.c" 
+gcc -o 2doParcial-Proyecto.exe "src\\2doParcial-Proyecto.o" "src\\Controller.o" "src\\LinkedList.o" "src\\bibliotecaUTN-validaciones.o" "src\\eEditorial.o" "src\\eLibro.o" 
+19:10:57 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\bibliotecaUTN-validaciones.o" "..\\src\\bibliotecaUTN-validaciones.c" 
+gcc -o 2doParcial-Proyecto.exe "src\\2doParcial-Proyecto.o" "src\\Controller.o" "src\\LinkedList.o" "src\\bibliotecaUTN-validaciones.o" "src\\eEditorial.o" "src\\eLibro.o" 
+Info: Nothing to build for 2doParcial-Proyecto
+19:11:29 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\bibliotecaUTN-validaciones.o" "..\\src\\bibliotecaUTN-validaciones.c" 
+gcc -o 2doParcial-Proyecto.exe "src\\2doParcial-Proyecto.o" "src\\Controller.o" "src\\LinkedList.o" "src\\bibliotecaUTN-validaciones.o" "src\\eEditorial.o" "src\\eLibro.o" 
+Info: Nothing to build for 2doParcial-Proyecto
+Info: Nothing to build for 2doParcial-Proyecto
+Info: Nothing to build for 2doParcial-Proyecto
+19:12:51 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Controller.o" "..\\src\\Controller.c" 
+..\src\Controller.c:12:0: warning: "MAX_CHAR" redefined
+ #define MAX_CHAR 200
+ 
+In file included from ..\src\Controller.c:8:0:
+..\src\eEditorial.h:3:0: note: this is the location of the previous definition
+ #define MAX_CHAR 128
+ 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\eEditorial.o" "..\\src\\eEditorial.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\eLibro.o" "..\\src\\eLibro.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\2doParcial-Proyecto.o" "..\\src\\2doParcial-Proyecto.c" 
+..\src\2doParcial-Proyecto.c: In function 'main':
+..\src\2doParcial-Proyecto.c:25:14: warning: unused variable 'listaLibros' [-Wunused-variable]
+  LinkedList* listaLibros = ll_newLinkedList();
+              ^~~~~~~~~~~
+gcc -o 2doParcial-Proyecto.exe "src\\2doParcial-Proyecto.o" "src\\Controller.o" "src\\LinkedList.o" "src\\bibliotecaUTN-validaciones.o" "src\\eEditorial.o" "src\\eLibro.o" 
+Info: Nothing to build for 2doParcial-Proyecto
+19:13:16 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\bibliotecaUTN-validaciones.o" "..\\src\\bibliotecaUTN-validaciones.c" 
+gcc -o 2doParcial-Proyecto.exe "src\\2doParcial-Proyecto.o" "src\\Controller.o" "src\\LinkedList.o" "src\\bibliotecaUTN-validaciones.o" "src\\eEditorial.o" "src\\eLibro.o" 
+Info: Nothing to build for 2doParcial-Proyecto
+19:13:51 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\bibliotecaUTN-validaciones.o" "..\\src\\bibliotecaUTN-validaciones.c" 
+gcc -o 2doParcial-Proyecto.exe "src\\2doParcial-Proyecto.o" "src\\Controller.o" "src\\LinkedList.o" "src\\bibliotecaUTN-validaciones.o" "src\\eEditorial.o" "src\\eLibro.o" 
+Info: Nothing to build for 2doParcial-Proyecto
+19:14:58 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\bibliotecaUTN-validaciones.o" "..\\src\\bibliotecaUTN-validaciones.c" 
+gcc -o 2doParcial-Proyecto.exe "src\\2doParcial-Proyecto.o" "src\\Controller.o" "src\\LinkedList.o" "src\\bibliotecaUTN-validaciones.o" "src\\eEditorial.o" "src\\eLibro.o" 
+Info: Nothing to build for 2doParcial-Proyecto
+Info: Nothing to build for 2doParcial-Proyecto
+19:15:50 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\bibliotecaUTN-validaciones.o" "..\\src\\bibliotecaUTN-validaciones.c" 
+gcc -o 2doParcial-Proyecto.exe "src\\2doParcial-Proyecto.o" "src\\Controller.o" "src\\LinkedList.o" "src\\bibliotecaUTN-validaciones.o" "src\\eEditorial.o" "src\\eLibro.o" 
+Info: Nothing to build for 2doParcial-Proyecto
+19:16:01 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\bibliotecaUTN-validaciones.o" "..\\src\\bibliotecaUTN-validaciones.c" 
+gcc -o 2doParcial-Proyecto.exe "src\\2doParcial-Proyecto.o" "src\\Controller.o" "src\\LinkedList.o" "src\\bibliotecaUTN-validaciones.o" "src\\eEditorial.o" "src\\eLibro.o" 
+Info: Nothing to build for 2doParcial-Proyecto
+Info: Nothing to build for 2doParcial-Proyecto
+Info: Nothing to build for 2doParcial-Proyecto
+Info: Nothing to build for 2doParcial-Proyecto
+Info: Nothing to build for 2doParcial-Proyecto
+19:17:15 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\bibliotecaUTN-validaciones.o" "..\\src\\bibliotecaUTN-validaciones.c" 
+gcc -o 2doParcial-Proyecto.exe "src\\2doParcial-Proyecto.o" "src\\Controller.o" "src\\LinkedList.o" "src\\bibliotecaUTN-validaciones.o" "src\\eEditorial.o" "src\\eLibro.o" 
+Info: Nothing to build for 2doParcial-Proyecto
+Info: Nothing to build for 2doParcial-Proyecto
+Info: Nothing to build for 2doParcial-Proyecto
+19:19:42 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\bibliotecaUTN-validaciones.o" "..\\src\\bibliotecaUTN-validaciones.c" 
+gcc -o 2doParcial-Proyecto.exe "src\\2doParcial-Proyecto.o" "src\\Controller.o" "src\\LinkedList.o" "src\\bibliotecaUTN-validaciones.o" "src\\eEditorial.o" "src\\eLibro.o" 
+Info: Nothing to build for 2doParcial-Proyecto
+19:20:28 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\bibliotecaUTN-validaciones.o" "..\\src\\bibliotecaUTN-validaciones.c" 
+gcc -o 2doParcial-Proyecto.exe "src\\2doParcial-Proyecto.o" "src\\Controller.o" "src\\LinkedList.o" "src\\bibliotecaUTN-validaciones.o" "src\\eEditorial.o" "src\\eLibro.o" 
+Info: Nothing to build for 2doParcial-Proyecto
+19:21:04 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\bibliotecaUTN-validaciones.o" "..\\src\\bibliotecaUTN-validaciones.c" 
+gcc -o 2doParcial-Proyecto.exe "src\\2doParcial-Proyecto.o" "src\\Controller.o" "src\\LinkedList.o" "src\\bibliotecaUTN-validaciones.o" "src\\eEditorial.o" "src\\eLibro.o" 
+Info: Nothing to build for 2doParcial-Proyecto
+19:21:16 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\bibliotecaUTN-validaciones.o" "..\\src\\bibliotecaUTN-validaciones.c" 
+gcc -o 2doParcial-Proyecto.exe "src\\2doParcial-Proyecto.o" "src\\Controller.o" "src\\LinkedList.o" "src\\bibliotecaUTN-validaciones.o" "src\\eEditorial.o" "src\\eLibro.o" 
+Info: Nothing to build for 2doParcial-Proyecto
+19:21:32 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\bibliotecaUTN-validaciones.o" "..\\src\\bibliotecaUTN-validaciones.c" 
+gcc -o 2doParcial-Proyecto.exe "src\\2doParcial-Proyecto.o" "src\\Controller.o" "src\\LinkedList.o" "src\\bibliotecaUTN-validaciones.o" "src\\eEditorial.o" "src\\eLibro.o" 
+Info: Nothing to build for 2doParcial-Proyecto
+Info: Nothing to build for 2doParcial-Proyecto
+19:21:49 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\bibliotecaUTN-validaciones.o" "..\\src\\bibliotecaUTN-validaciones.c" 
+gcc -o 2doParcial-Proyecto.exe "src\\2doParcial-Proyecto.o" "src\\Controller.o" "src\\LinkedList.o" "src\\bibliotecaUTN-validaciones.o" "src\\eEditorial.o" "src\\eLibro.o" 
+Info: Nothing to build for 2doParcial-Proyecto
+Info: Nothing to build for 2doParcial-Proyecto
+Info: Nothing to build for 2doParcial-Proyecto
+Info: Nothing to build for 2doParcial-Proyecto
+Info: Nothing to build for 2doParcial-Proyecto
+Info: Nothing to build for 2doParcial-Proyecto
+20:25:00 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\2doParcial-Proyecto.o" "..\\src\\2doParcial-Proyecto.c" 
+In file included from ..\src\2doParcial-Proyecto.c:7:0:
+..\src\Controller.h:4:29: error: unknown type name 'LinkedList'
+ int controller_loadFromText(LinkedList* pListLibros);
+                             ^~~~~~~~~~
+..\src\2doParcial-Proyecto.c: In function 'main':
+..\src\2doParcial-Proyecto.c:18:14: warning: unused variable 'listaLibros' [-Wunused-variable]
+  LinkedList* listaLibros = ll_newLinkedList();
+              ^~~~~~~~~~~
+20:26:29 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Controller.o" "..\\src\\Controller.c" 
+..\src\Controller.c: In function 'controller_loadFromText':
+..\src\Controller.c:29:12: warning: implicit declaration of function 'parser_EmployeeFromText' [-Wimplicit-function-declaration]
+    exito = parser_EmployeeFromText(archivo, pListLibros);
+            ^~~~~~~~~~~~~~~~~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\parser.o" "..\\src\\parser.c" 
+..\src\parser.c: In function 'parser_eLibroFromText':
+..\src\parser.c:18:10: warning: unused variable 'auxLibro' [-Wunused-variable]
+  eLibro* auxLibro = NULL;
+          ^~~~~~~~
+..\src\parser.c:14:6: warning: variable 'contPropiedades' set but not used [-Wunused-but-set-variable]
+  int contPropiedades = 0;
+      ^~~~~~~~~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\eLibro.o" "..\\src\\eLibro.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\2doParcial-Proyecto.o" "..\\src\\2doParcial-Proyecto.c" 
+In file included from ..\src\2doParcial-Proyecto.c:7:0:
+..\src\Controller.h:4:29: error: unknown type name 'LinkedList'
+ int controller_loadFromText(LinkedList* pListLibros);
+                             ^~~~~~~~~~
+..\src\2doParcial-Proyecto.c: In function 'main':
+..\src\2doParcial-Proyecto.c:18:14: warning: unused variable 'listaLibros' [-Wunused-variable]
+  LinkedList* listaLibros = ll_newLinkedList();
+              ^~~~~~~~~~~
+20:26:42 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\2doParcial-Proyecto.o" "..\\src\\2doParcial-Proyecto.c" 
+In file included from ..\src\2doParcial-Proyecto.c:7:0:
+..\src\Controller.h:4:29: error: unknown type name 'LinkedList'
+ int controller_loadFromText(LinkedList* pListLibros);
+                             ^~~~~~~~~~
+..\src\2doParcial-Proyecto.c: In function 'main':
+..\src\2doParcial-Proyecto.c:18:14: warning: unused variable 'listaLibros' [-Wunused-variable]
+  LinkedList* listaLibros = ll_newLinkedList();
+              ^~~~~~~~~~~
+20:27:11 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\2doParcial-Proyecto.o" "..\\src\\2doParcial-Proyecto.c" 
+In file included from ..\src\2doParcial-Proyecto.c:7:0:
+..\src\Controller.h:4:29: error: unknown type name 'LinkedList'
+ int controller_loadFromText(LinkedList* pListLibros);
+                             ^~~~~~~~~~
+..\src\2doParcial-Proyecto.c: In function 'main':
+..\src\2doParcial-Proyecto.c:18:14: warning: unused variable 'listaLibros' [-Wunused-variable]
+  LinkedList* listaLibros = ll_newLinkedList();
+              ^~~~~~~~~~~
+20:27:44 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Controller.o" "..\\src\\Controller.c" 
+..\src\Controller.c: In function 'controller_loadFromText':
+..\src\Controller.c:30:12: warning: implicit declaration of function 'parser_EmployeeFromText' [-Wimplicit-function-declaration]
+    exito = parser_EmployeeFromText(archivo, pListLibros);
+            ^~~~~~~~~~~~~~~~~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\2doParcial-Proyecto.o" "..\\src\\2doParcial-Proyecto.c" 
+..\src\2doParcial-Proyecto.c: In function 'main':
+..\src\2doParcial-Proyecto.c:18:14: warning: unused variable 'listaLibros' [-Wunused-variable]
+  LinkedList* listaLibros = ll_newLinkedList();
+              ^~~~~~~~~~~
+gcc -o 2doParcial-Proyecto.exe "src\\2doParcial-Proyecto.o" "src\\Controller.o" "src\\LinkedList.o" "src\\bibliotecaUTN-validaciones.o" "src\\eLibro.o" "src\\parser.o" 
+src\Controller.o: In function `controller_loadFromText':
+D:\ANTON\utnProgramacion\03 PROGRAMACION - LABORATORIO\2doParcial\2doParcial-Proyecto\Debug/../src/Controller.c:30: undefined reference to `parser_EmployeeFromText'
+collect2.exe: error: ld returned 1 exit status
+20:28:00 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\2doParcial-Proyecto.o" "..\\src\\2doParcial-Proyecto.c" 
+..\src\2doParcial-Proyecto.c: In function 'main':
+..\src\2doParcial-Proyecto.c:18:14: warning: unused variable 'listaLibros' [-Wunused-variable]
+  LinkedList* listaLibros = ll_newLinkedList();
+              ^~~~~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Controller.o" "..\\src\\Controller.c" 
+..\src\Controller.c: In function 'controller_loadFromText':
+..\src\Controller.c:30:12: warning: implicit declaration of function 'parser_EmployeeFromText' [-Wimplicit-function-declaration]
+    exito = parser_EmployeeFromText(archivo, pListLibros);
+            ^~~~~~~~~~~~~~~~~~~~~~~
+gcc -o 2doParcial-Proyecto.exe "src\\2doParcial-Proyecto.o" "src\\Controller.o" "src\\LinkedList.o" "src\\bibliotecaUTN-validaciones.o" "src\\eLibro.o" "src\\parser.o" 
+src\Controller.o: In function `controller_loadFromText':
+D:\ANTON\utnProgramacion\03 PROGRAMACION - LABORATORIO\2doParcial\2doParcial-Proyecto\Debug/../src/Controller.c:30: undefined reference to `parser_EmployeeFromText'
+collect2.exe: error: ld returned 1 exit status
+20:28:40 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Controller.o" "..\\src\\Controller.c" 
+..\src\Controller.c: In function 'controller_loadFromText':
+..\src\Controller.c:31:12: warning: implicit declaration of function 'parser_EmployeeFromText' [-Wimplicit-function-declaration]
+    exito = parser_EmployeeFromText(archivo, pListLibros);
+            ^~~~~~~~~~~~~~~~~~~~~~~
+gcc -o 2doParcial-Proyecto.exe "src\\2doParcial-Proyecto.o" "src\\Controller.o" "src\\LinkedList.o" "src\\bibliotecaUTN-validaciones.o" "src\\eLibro.o" "src\\parser.o" 
+src\Controller.o: In function `controller_loadFromText':
+D:\ANTON\utnProgramacion\03 PROGRAMACION - LABORATORIO\2doParcial\2doParcial-Proyecto\Debug/../src/Controller.c:31: undefined reference to `parser_EmployeeFromText'
+collect2.exe: error: ld returned 1 exit status
+20:28:57 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Controller.o" "..\\src\\Controller.c" 
+gcc -o 2doParcial-Proyecto.exe "src\\2doParcial-Proyecto.o" "src\\Controller.o" "src\\LinkedList.o" "src\\bibliotecaUTN-validaciones.o" "src\\eLibro.o" "src\\parser.o" 
+20:29:46 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\2doParcial-Proyecto.o" "..\\src\\2doParcial-Proyecto.c" 
+..\src\2doParcial-Proyecto.c: In function 'main':
+..\src\2doParcial-Proyecto.c:24:14: warning: unused variable 'listaLibros' [-Wunused-variable]
+  LinkedList* listaLibros = ll_newLinkedList();
+              ^~~~~~~~~~~
+gcc -o 2doParcial-Proyecto.exe "src\\2doParcial-Proyecto.o" "src\\Controller.o" "src\\LinkedList.o" "src\\bibliotecaUTN-validaciones.o" "src\\eLibro.o" "src\\parser.o" 
+Info: Nothing to build for 2doParcial-Proyecto
+20:30:11 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\2doParcial-Proyecto.o" "..\\src\\2doParcial-Proyecto.c" 
+..\src\2doParcial-Proyecto.c: In function 'main':
+..\src\2doParcial-Proyecto.c:22:2: warning: implicit declaration of function 'prinf' [-Wimplicit-function-declaration]
+  prinf("el resultado es: %d", d);
+  ^~~~~
+..\src\2doParcial-Proyecto.c:25:14: warning: unused variable 'listaLibros' [-Wunused-variable]
+  LinkedList* listaLibros = ll_newLinkedList();
+              ^~~~~~~~~~~
+gcc -o 2doParcial-Proyecto.exe "src\\2doParcial-Proyecto.o" "src\\Controller.o" "src\\LinkedList.o" "src\\bibliotecaUTN-validaciones.o" "src\\eLibro.o" "src\\parser.o" 
+src\2doParcial-Proyecto.o: In function `main':
+D:\ANTON\utnProgramacion\03 PROGRAMACION - LABORATORIO\2doParcial\2doParcial-Proyecto\Debug/../src/2doParcial-Proyecto.c:22: undefined reference to `prinf'
+collect2.exe: error: ld returned 1 exit status
+20:30:12 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -o 2doParcial-Proyecto.exe "src\\2doParcial-Proyecto.o" "src\\Controller.o" "src\\LinkedList.o" "src\\bibliotecaUTN-validaciones.o" "src\\eLibro.o" "src\\parser.o" 
+src\2doParcial-Proyecto.o: In function `main':
+D:\ANTON\utnProgramacion\03 PROGRAMACION - LABORATORIO\2doParcial\2doParcial-Proyecto\Debug/../src/2doParcial-Proyecto.c:22: undefined reference to `prinf'
+collect2.exe: error: ld returned 1 exit status
+20:30:16 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -o 2doParcial-Proyecto.exe "src\\2doParcial-Proyecto.o" "src\\Controller.o" "src\\LinkedList.o" "src\\bibliotecaUTN-validaciones.o" "src\\eLibro.o" "src\\parser.o" 
+src\2doParcial-Proyecto.o: In function `main':
+D:\ANTON\utnProgramacion\03 PROGRAMACION - LABORATORIO\2doParcial\2doParcial-Proyecto\Debug/../src/2doParcial-Proyecto.c:22: undefined reference to `prinf'
+collect2.exe: error: ld returned 1 exit status
+20:30:20 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\2doParcial-Proyecto.o" "..\\src\\2doParcial-Proyecto.c" 
+..\src\2doParcial-Proyecto.c: In function 'main':
+..\src\2doParcial-Proyecto.c:25:14: warning: unused variable 'listaLibros' [-Wunused-variable]
+  LinkedList* listaLibros = ll_newLinkedList();
+              ^~~~~~~~~~~
+gcc -o 2doParcial-Proyecto.exe "src\\2doParcial-Proyecto.o" "src\\Controller.o" "src\\LinkedList.o" "src\\bibliotecaUTN-validaciones.o" "src\\eLibro.o" "src\\parser.o" 
+Info: Nothing to build for 2doParcial-Proyecto
+20:30:29 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\2doParcial-Proyecto.o" "..\\src\\2doParcial-Proyecto.c" 
+..\src\2doParcial-Proyecto.c: In function 'main':
+..\src\2doParcial-Proyecto.c:25:14: warning: unused variable 'listaLibros' [-Wunused-variable]
+  LinkedList* listaLibros = ll_newLinkedList();
+              ^~~~~~~~~~~
+gcc -o 2doParcial-Proyecto.exe "src\\2doParcial-Proyecto.o" "src\\Controller.o" "src\\LinkedList.o" "src\\bibliotecaUTN-validaciones.o" "src\\eLibro.o" "src\\parser.o" 
+Info: Nothing to build for 2doParcial-Proyecto
+20:35:20 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\2doParcial-Proyecto.o" "..\\src\\2doParcial-Proyecto.c" 
+..\src\2doParcial-Proyecto.c: In function 'main':
+..\src\2doParcial-Proyecto.c:18:14: warning: unused variable 'listaLibros' [-Wunused-variable]
+  LinkedList* listaLibros = ll_newLinkedList();
+              ^~~~~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\eLibro.o" "..\\src\\eLibro.c" 
+..\src\eLibro.c: In function 'eLibro_getEditorialIdByName':
+..\src\eLibro.c:184:17: error: expected '}' before '.' token
+    {"MINOTAURO"}.
+                 ^
+..\src\eLibro.c:179:7: warning: unused variable 'editoriales' [-Wunused-variable]
+  char editoriales[6][30] =
+       ^~~~~~~~~~~
+..\src\eLibro.c:178:6: warning: unused variable 'auxId' [-Wunused-variable]
+  int auxId;
+      ^~~~~
+20:35:30 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\eLibro.o" "..\\src\\eLibro.c" 
+..\src\eLibro.c: In function 'eLibro_getEditorialIdByName':
+..\src\eLibro.c:179:7: warning: unused variable 'editoriales' [-Wunused-variable]
+  char editoriales[6][30] =
+       ^~~~~~~~~~~
+..\src\eLibro.c:178:6: warning: unused variable 'auxId' [-Wunused-variable]
+  int auxId;
+      ^~~~~
+gcc -o 2doParcial-Proyecto.exe "src\\2doParcial-Proyecto.o" "src\\Controller.o" "src\\LinkedList.o" "src\\bibliotecaUTN-validaciones.o" "src\\eLibro.o" "src\\parser.o" 
+20:38:20 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\eLibro.o" "..\\src\\eLibro.c" 
+gcc -o 2doParcial-Proyecto.exe "src\\2doParcial-Proyecto.o" "src\\Controller.o" "src\\LinkedList.o" "src\\bibliotecaUTN-validaciones.o" "src\\eLibro.o" "src\\parser.o" 
+20:40:35 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\2doParcial-Proyecto.o" "..\\src\\2doParcial-Proyecto.c" 
+..\src\2doParcial-Proyecto.c: In function 'main':
+..\src\2doParcial-Proyecto.c:19:10: warning: implicit declaration of function 'eLibro_getEditorialIdByName' [-Wimplicit-function-declaration]
+  int e = eLibro_getEditorialIdByName("MINOTAURO", idEditorial);
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\2doParcial-Proyecto.c:29:14: warning: unused variable 'listaLibros' [-Wunused-variable]
+  LinkedList* listaLibros = ll_newLinkedList();
+              ^~~~~~~~~~~
+..\src\2doParcial-Proyecto.c:19:6: warning: 'idEditorial' is used uninitialized in this function [-Wuninitialized]
+  int e = eLibro_getEditorialIdByName("MINOTAURO", idEditorial);
+      ^
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\eLibro.o" "..\\src\\eLibro.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Controller.o" "..\\src\\Controller.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\parser.o" "..\\src\\parser.c" 
+..\src\parser.c: In function 'parser_eLibroFromText':
+..\src\parser.c:18:10: warning: unused variable 'auxLibro' [-Wunused-variable]
+  eLibro* auxLibro = NULL;
+          ^~~~~~~~
+..\src\parser.c:14:6: warning: variable 'contPropiedades' set but not used [-Wunused-but-set-variable]
+  int contPropiedades = 0;
+      ^~~~~~~~~~~~~~~
+gcc -o 2doParcial-Proyecto.exe "src\\2doParcial-Proyecto.o" "src\\Controller.o" "src\\LinkedList.o" "src\\bibliotecaUTN-validaciones.o" "src\\eLibro.o" "src\\parser.o" 
+Info: Nothing to build for 2doParcial-Proyecto
+20:40:58 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\2doParcial-Proyecto.o" "..\\src\\2doParcial-Proyecto.c" 
+..\src\2doParcial-Proyecto.c: In function 'main':
+..\src\2doParcial-Proyecto.c:19:10: warning: implicit declaration of function 'eLibro_getEditorialIdByName' [-Wimplicit-function-declaration]
+  int e = eLibro_getEditorialIdByName("MINOTAURO", &idEditorial);
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\2doParcial-Proyecto.c:29:14: warning: unused variable 'listaLibros' [-Wunused-variable]
+  LinkedList* listaLibros = ll_newLinkedList();
+              ^~~~~~~~~~~
+gcc -o 2doParcial-Proyecto.exe "src\\2doParcial-Proyecto.o" "src\\Controller.o" "src\\LinkedList.o" "src\\bibliotecaUTN-validaciones.o" "src\\eLibro.o" "src\\parser.o" 
+Info: Nothing to build for 2doParcial-Proyecto
+20:41:37 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\2doParcial-Proyecto.o" "..\\src\\2doParcial-Proyecto.c" 
+..\src\2doParcial-Proyecto.c: In function 'main':
+..\src\2doParcial-Proyecto.c:19:10: warning: implicit declaration of function 'eLibro_getEditorialIdByName' [-Wimplicit-function-declaration]
+  int e = eLibro_getEditorialIdByName("PENGUIN BOOKS", &idEditorial);
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\2doParcial-Proyecto.c:29:14: warning: unused variable 'listaLibros' [-Wunused-variable]
+  LinkedList* listaLibros = ll_newLinkedList();
+              ^~~~~~~~~~~
+gcc -o 2doParcial-Proyecto.exe "src\\2doParcial-Proyecto.o" "src\\Controller.o" "src\\LinkedList.o" "src\\bibliotecaUTN-validaciones.o" "src\\eLibro.o" "src\\parser.o" 
+Info: Nothing to build for 2doParcial-Proyecto
+20:41:52 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\2doParcial-Proyecto.o" "..\\src\\2doParcial-Proyecto.c" 
+..\src\2doParcial-Proyecto.c: In function 'main':
+..\src\2doParcial-Proyecto.c:20:14: warning: unused variable 'listaLibros' [-Wunused-variable]
+  LinkedList* listaLibros = ll_newLinkedList();
+              ^~~~~~~~~~~
+..\src\2doParcial-Proyecto.c:17:6: warning: unused variable 'idEditorial' [-Wunused-variable]
+  int idEditorial;
+      ^~~~~~~~~~~
+gcc -o 2doParcial-Proyecto.exe "src\\2doParcial-Proyecto.o" "src\\Controller.o" "src\\LinkedList.o" "src\\bibliotecaUTN-validaciones.o" "src\\eLibro.o" "src\\parser.o" 
+20:41:59 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\2doParcial-Proyecto.o" "..\\src\\2doParcial-Proyecto.c" 
+..\src\2doParcial-Proyecto.c: In function 'main':
+..\src\2doParcial-Proyecto.c:18:14: warning: unused variable 'listaLibros' [-Wunused-variable]
+  LinkedList* listaLibros = ll_newLinkedList();
+              ^~~~~~~~~~~
+gcc -o 2doParcial-Proyecto.exe "src\\2doParcial-Proyecto.o" "src\\Controller.o" "src\\LinkedList.o" "src\\bibliotecaUTN-validaciones.o" "src\\eLibro.o" "src\\parser.o" 
+20:48:50 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Controller.o" "..\\src\\Controller.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\eLibro.o" "..\\src\\eLibro.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\parser.o" "..\\src\\parser.c" 
+..\src\parser.c: In function 'parser_eLibroFromText':
+..\src\parser.c:17:10: warning: unused variable 'auxLibro' [-Wunused-variable]
+  eLibro* auxLibro = NULL;
+          ^~~~~~~~
+..\src\parser.c:13:6: warning: variable 'contPropiedades' set but not used [-Wunused-but-set-variable]
+  int contPropiedades = 0;
+      ^~~~~~~~~~~~~~~
+gcc -o 2doParcial-Proyecto.exe "src\\2doParcial-Proyecto.o" "src\\Controller.o" "src\\LinkedList.o" "src\\bibliotecaUTN-validaciones.o" "src\\eLibro.o" "src\\parser.o" 
+20:50:04 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\2doParcial-Proyecto.o" "..\\src\\2doParcial-Proyecto.c" 
+..\src\2doParcial-Proyecto.c: In function 'main':
+..\src\2doParcial-Proyecto.c:21:10: warning: implicit declaration of function 'eLibro_getEditorialNamyById' [-Wimplicit-function-declaration]
+  int a = eLibro_getEditorialNamyById(3, nombre);
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\2doParcial-Proyecto.c:18:14: warning: unused variable 'listaLibros' [-Wunused-variable]
+  LinkedList* listaLibros = ll_newLinkedList();
+              ^~~~~~~~~~~
+gcc -o 2doParcial-Proyecto.exe "src\\2doParcial-Proyecto.o" "src\\Controller.o" "src\\LinkedList.o" "src\\bibliotecaUTN-validaciones.o" "src\\eLibro.o" "src\\parser.o" 
+Info: Nothing to build for 2doParcial-Proyecto
+20:50:17 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\2doParcial-Proyecto.o" "..\\src\\2doParcial-Proyecto.c" 
+..\src\2doParcial-Proyecto.c: In function 'main':
+..\src\2doParcial-Proyecto.c:21:10: warning: implicit declaration of function 'eLibro_getEditorialNamyById' [-Wimplicit-function-declaration]
+  int a = eLibro_getEditorialNamyById(6, nombre);
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\2doParcial-Proyecto.c:18:14: warning: unused variable 'listaLibros' [-Wunused-variable]
+  LinkedList* listaLibros = ll_newLinkedList();
+              ^~~~~~~~~~~
+gcc -o 2doParcial-Proyecto.exe "src\\2doParcial-Proyecto.o" "src\\Controller.o" "src\\LinkedList.o" "src\\bibliotecaUTN-validaciones.o" "src\\eLibro.o" "src\\parser.o" 
+Info: Nothing to build for 2doParcial-Proyecto
+20:50:23 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\2doParcial-Proyecto.o" "..\\src\\2doParcial-Proyecto.c" 
+..\src\2doParcial-Proyecto.c: In function 'main':
+..\src\2doParcial-Proyecto.c:21:10: warning: implicit declaration of function 'eLibro_getEditorialNamyById' [-Wimplicit-function-declaration]
+  int a = eLibro_getEditorialNamyById(10, nombre);
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\2doParcial-Proyecto.c:18:14: warning: unused variable 'listaLibros' [-Wunused-variable]
+  LinkedList* listaLibros = ll_newLinkedList();
+              ^~~~~~~~~~~
+gcc -o 2doParcial-Proyecto.exe "src\\2doParcial-Proyecto.o" "src\\Controller.o" "src\\LinkedList.o" "src\\bibliotecaUTN-validaciones.o" "src\\eLibro.o" "src\\parser.o" 
+Info: Nothing to build for 2doParcial-Proyecto
+20:50:33 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\2doParcial-Proyecto.o" "..\\src\\2doParcial-Proyecto.c" 
+..\src\2doParcial-Proyecto.c: In function 'main':
+..\src\2doParcial-Proyecto.c:18:14: warning: unused variable 'listaLibros' [-Wunused-variable]
+  LinkedList* listaLibros = ll_newLinkedList();
+              ^~~~~~~~~~~
+gcc -o 2doParcial-Proyecto.exe "src\\2doParcial-Proyecto.o" "src\\Controller.o" "src\\LinkedList.o" "src\\bibliotecaUTN-validaciones.o" "src\\eLibro.o" "src\\parser.o" 
+20:56:22 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\bibliotecaUTN-validaciones.o" "..\\src\\bibliotecaUTN-validaciones.c" 
+..\src\bibliotecaUTN-validaciones.c: In function 'utn_StringToLower':
+..\src\bibliotecaUTN-validaciones.c:655:11: warning: comparison between pointer and integer
+  if(exito != NULL)
+           ^~
+..\src\bibliotecaUTN-validaciones.c:659:4: warning: statement with no effect [-Wunused-value]
+    tolower(string[i]);
+    ^~~~~~~~~~~~~~~~~~
+gcc -o 2doParcial-Proyecto.exe "src\\2doParcial-Proyecto.o" "src\\Controller.o" "src\\LinkedList.o" "src\\bibliotecaUTN-validaciones.o" "src\\eLibro.o" "src\\parser.o" 
+20:56:38 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\bibliotecaUTN-validaciones.o" "..\\src\\bibliotecaUTN-validaciones.c" 
+..\src\bibliotecaUTN-validaciones.c: In function 'utn_StringToLower':
+..\src\bibliotecaUTN-validaciones.c:659:4: warning: statement with no effect [-Wunused-value]
+    tolower(string[i]);
+    ^~~~~~~~~~~~~~~~~~
+gcc -o 2doParcial-Proyecto.exe "src\\2doParcial-Proyecto.o" "src\\Controller.o" "src\\LinkedList.o" "src\\bibliotecaUTN-validaciones.o" "src\\eLibro.o" "src\\parser.o" 
+20:58:05 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\bibliotecaUTN-validaciones.o" "..\\src\\bibliotecaUTN-validaciones.c" 
+..\src\bibliotecaUTN-validaciones.c: In function 'utn_StringToLower':
+..\src\bibliotecaUTN-validaciones.c:659:18: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+    cadenaToLower = tolower(cadena[i]);
+                  ^
+gcc -o 2doParcial-Proyecto.exe "src\\2doParcial-Proyecto.o" "src\\Controller.o" "src\\LinkedList.o" "src\\bibliotecaUTN-validaciones.o" "src\\eLibro.o" "src\\parser.o" 
+20:58:18 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\bibliotecaUTN-validaciones.o" "..\\src\\bibliotecaUTN-validaciones.c" 
+gcc -o 2doParcial-Proyecto.exe "src\\2doParcial-Proyecto.o" "src\\Controller.o" "src\\LinkedList.o" "src\\bibliotecaUTN-validaciones.o" "src\\eLibro.o" "src\\parser.o" 
+20:58:46 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\bibliotecaUTN-validaciones.o" "..\\src\\bibliotecaUTN-validaciones.c" 
+..\src\bibliotecaUTN-validaciones.c: In function 'utn_StringToLower':
+..\src\bibliotecaUTN-validaciones.c:654:2: error: variable-sized object may not be initialized
+  char auxCadena[largoCadena] = NULL;
+  ^~~~
+..\src\bibliotecaUTN-validaciones.c:654:7: warning: variable 'auxCadena' set but not used [-Wunused-but-set-variable]
+  char auxCadena[largoCadena] = NULL;
+       ^~~~~~~~~
+20:58:52 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\bibliotecaUTN-validaciones.o" "..\\src\\bibliotecaUTN-validaciones.c" 
+..\src\bibliotecaUTN-validaciones.c: In function 'utn_StringToLower':
+..\src\bibliotecaUTN-validaciones.c:654:7: warning: variable 'auxCadena' set but not used [-Wunused-but-set-variable]
+  char auxCadena[largoCadena];
+       ^~~~~~~~~
+gcc -o 2doParcial-Proyecto.exe "src\\2doParcial-Proyecto.o" "src\\Controller.o" "src\\LinkedList.o" "src\\bibliotecaUTN-validaciones.o" "src\\eLibro.o" "src\\parser.o" 
+21:00:09 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\bibliotecaUTN-validaciones.o" "..\\src\\bibliotecaUTN-validaciones.c" 
+gcc -o 2doParcial-Proyecto.exe "src\\2doParcial-Proyecto.o" "src\\Controller.o" "src\\LinkedList.o" "src\\bibliotecaUTN-validaciones.o" "src\\eLibro.o" "src\\parser.o" 
+21:00:25 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\2doParcial-Proyecto.o" "..\\src\\2doParcial-Proyecto.c" 
+..\src\2doParcial-Proyecto.c: In function 'main':
+..\src\2doParcial-Proyecto.c:18:14: warning: unused variable 'listaLibros' [-Wunused-variable]
+  LinkedList* listaLibros = ll_newLinkedList();
+              ^~~~~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Controller.o" "..\\src\\Controller.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\eLibro.o" "..\\src\\eLibro.c" 
+gcc -o 2doParcial-Proyecto.exe "src\\2doParcial-Proyecto.o" "src\\Controller.o" "src\\LinkedList.o" "src\\bibliotecaUTN-validaciones.o" "src\\eLibro.o" "src\\parser.o" 
+21:01:52 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\2doParcial-Proyecto.o" "..\\src\\2doParcial-Proyecto.c" 
+..\src\2doParcial-Proyecto.c: In function 'main':
+..\src\2doParcial-Proyecto.c:18:14: warning: unused variable 'listaLibros' [-Wunused-variable]
+  LinkedList* listaLibros = ll_newLinkedList();
+              ^~~~~~~~~~~
+gcc -o 2doParcial-Proyecto.exe "src\\2doParcial-Proyecto.o" "src\\Controller.o" "src\\LinkedList.o" "src\\bibliotecaUTN-validaciones.o" "src\\eLibro.o" "src\\parser.o" 
+Info: Nothing to build for 2doParcial-Proyecto
+21:02:03 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\2doParcial-Proyecto.o" "..\\src\\2doParcial-Proyecto.c" 
+..\src\2doParcial-Proyecto.c: In function 'main':
+..\src\2doParcial-Proyecto.c:18:14: warning: unused variable 'listaLibros' [-Wunused-variable]
+  LinkedList* listaLibros = ll_newLinkedList();
+              ^~~~~~~~~~~
+gcc -o 2doParcial-Proyecto.exe "src\\2doParcial-Proyecto.o" "src\\Controller.o" "src\\LinkedList.o" "src\\bibliotecaUTN-validaciones.o" "src\\eLibro.o" "src\\parser.o" 
+Info: Nothing to build for 2doParcial-Proyecto
+Info: Nothing to build for 2doParcial-Proyecto
+Info: Nothing to build for 2doParcial-Proyecto
+Info: Nothing to build for 2doParcial-Proyecto
+Info: Nothing to build for 2doParcial-Proyecto
+21:02:42 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\2doParcial-Proyecto.o" "..\\src\\2doParcial-Proyecto.c" 
+..\src\2doParcial-Proyecto.c: In function 'main':
+..\src\2doParcial-Proyecto.c:18:14: warning: unused variable 'listaLibros' [-Wunused-variable]
+  LinkedList* listaLibros = ll_newLinkedList();
+              ^~~~~~~~~~~
+gcc -o 2doParcial-Proyecto.exe "src\\2doParcial-Proyecto.o" "src\\Controller.o" "src\\LinkedList.o" "src\\bibliotecaUTN-validaciones.o" "src\\eLibro.o" "src\\parser.o" 
+Info: Nothing to build for 2doParcial-Proyecto
+21:03:58 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\bibliotecaUTN-validaciones.o" "..\\src\\bibliotecaUTN-validaciones.c" 
+gcc -o 2doParcial-Proyecto.exe "src\\2doParcial-Proyecto.o" "src\\Controller.o" "src\\LinkedList.o" "src\\bibliotecaUTN-validaciones.o" "src\\eLibro.o" "src\\parser.o" 
+Info: Nothing to build for 2doParcial-Proyecto
+21:05:02 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\bibliotecaUTN-validaciones.o" "..\\src\\bibliotecaUTN-validaciones.c" 
+gcc -o 2doParcial-Proyecto.exe "src\\2doParcial-Proyecto.o" "src\\Controller.o" "src\\LinkedList.o" "src\\bibliotecaUTN-validaciones.o" "src\\eLibro.o" "src\\parser.o" 
+Info: Nothing to build for 2doParcial-Proyecto
+21:05:29 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\2doParcial-Proyecto.o" "..\\src\\2doParcial-Proyecto.c" 
+..\src\2doParcial-Proyecto.c: In function 'main':
+..\src\2doParcial-Proyecto.c:18:14: warning: unused variable 'listaLibros' [-Wunused-variable]
+  LinkedList* listaLibros = ll_newLinkedList();
+              ^~~~~~~~~~~
+gcc -o 2doParcial-Proyecto.exe "src\\2doParcial-Proyecto.o" "src\\Controller.o" "src\\LinkedList.o" "src\\bibliotecaUTN-validaciones.o" "src\\eLibro.o" "src\\parser.o" 
+Info: Nothing to build for 2doParcial-Proyecto
+21:05:37 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\2doParcial-Proyecto.o" "..\\src\\2doParcial-Proyecto.c" 
+..\src\2doParcial-Proyecto.c: In function 'main':
+..\src\2doParcial-Proyecto.c:18:14: warning: unused variable 'listaLibros' [-Wunused-variable]
+  LinkedList* listaLibros = ll_newLinkedList();
+              ^~~~~~~~~~~
+gcc -o 2doParcial-Proyecto.exe "src\\2doParcial-Proyecto.o" "src\\Controller.o" "src\\LinkedList.o" "src\\bibliotecaUTN-validaciones.o" "src\\eLibro.o" "src\\parser.o" 
+Info: Nothing to build for 2doParcial-Proyecto
+21:05:45 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\2doParcial-Proyecto.o" "..\\src\\2doParcial-Proyecto.c" 
+..\src\2doParcial-Proyecto.c: In function 'main':
+..\src\2doParcial-Proyecto.c:18:14: warning: unused variable 'listaLibros' [-Wunused-variable]
+  LinkedList* listaLibros = ll_newLinkedList();
+              ^~~~~~~~~~~
+gcc -o 2doParcial-Proyecto.exe "src\\2doParcial-Proyecto.o" "src\\Controller.o" "src\\LinkedList.o" "src\\bibliotecaUTN-validaciones.o" "src\\eLibro.o" "src\\parser.o" 
+Info: Nothing to build for 2doParcial-Proyecto
+Info: Nothing to build for 2doParcial-Proyecto
+21:05:58 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\2doParcial-Proyecto.o" "..\\src\\2doParcial-Proyecto.c" 
+..\src\2doParcial-Proyecto.c: In function 'main':
+..\src\2doParcial-Proyecto.c:18:14: warning: unused variable 'listaLibros' [-Wunused-variable]
+  LinkedList* listaLibros = ll_newLinkedList();
+              ^~~~~~~~~~~
+gcc -o 2doParcial-Proyecto.exe "src\\2doParcial-Proyecto.o" "src\\Controller.o" "src\\LinkedList.o" "src\\bibliotecaUTN-validaciones.o" "src\\eLibro.o" "src\\parser.o" 
+Info: Nothing to build for 2doParcial-Proyecto
+21:06:18 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\2doParcial-Proyecto.o" "..\\src\\2doParcial-Proyecto.c" 
+..\src\2doParcial-Proyecto.c: In function 'main':
+..\src\2doParcial-Proyecto.c:18:14: warning: unused variable 'listaLibros' [-Wunused-variable]
+  LinkedList* listaLibros = ll_newLinkedList();
+              ^~~~~~~~~~~
+gcc -o 2doParcial-Proyecto.exe "src\\2doParcial-Proyecto.o" "src\\Controller.o" "src\\LinkedList.o" "src\\bibliotecaUTN-validaciones.o" "src\\eLibro.o" "src\\parser.o" 
+Info: Nothing to build for 2doParcial-Proyecto
+21:06:40 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\2doParcial-Proyecto.o" "..\\src\\2doParcial-Proyecto.c" 
+..\src\2doParcial-Proyecto.c: In function 'main':
+..\src\2doParcial-Proyecto.c:18:14: warning: unused variable 'listaLibros' [-Wunused-variable]
+  LinkedList* listaLibros = ll_newLinkedList();
+              ^~~~~~~~~~~
+gcc -o 2doParcial-Proyecto.exe "src\\2doParcial-Proyecto.o" "src\\Controller.o" "src\\LinkedList.o" "src\\bibliotecaUTN-validaciones.o" "src\\eLibro.o" "src\\parser.o" 
+Info: Nothing to build for 2doParcial-Proyecto
+21:06:53 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\2doParcial-Proyecto.o" "..\\src\\2doParcial-Proyecto.c" 
+..\src\2doParcial-Proyecto.c: In function 'main':
+..\src\2doParcial-Proyecto.c:18:14: warning: unused variable 'listaLibros' [-Wunused-variable]
+  LinkedList* listaLibros = ll_newLinkedList();
+              ^~~~~~~~~~~
+gcc -o 2doParcial-Proyecto.exe "src\\2doParcial-Proyecto.o" "src\\Controller.o" "src\\LinkedList.o" "src\\bibliotecaUTN-validaciones.o" "src\\eLibro.o" "src\\parser.o" 
+Info: Nothing to build for 2doParcial-Proyecto
+21:07:00 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\2doParcial-Proyecto.o" "..\\src\\2doParcial-Proyecto.c" 
+..\src\2doParcial-Proyecto.c: In function 'main':
+..\src\2doParcial-Proyecto.c:18:14: warning: unused variable 'listaLibros' [-Wunused-variable]
+  LinkedList* listaLibros = ll_newLinkedList();
+              ^~~~~~~~~~~
+gcc -o 2doParcial-Proyecto.exe "src\\2doParcial-Proyecto.o" "src\\Controller.o" "src\\LinkedList.o" "src\\bibliotecaUTN-validaciones.o" "src\\eLibro.o" "src\\parser.o" 
+Info: Nothing to build for 2doParcial-Proyecto
+21:07:55 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\bibliotecaUTN-validaciones.o" "..\\src\\bibliotecaUTN-validaciones.c" 
+gcc -o 2doParcial-Proyecto.exe "src\\2doParcial-Proyecto.o" "src\\Controller.o" "src\\LinkedList.o" "src\\bibliotecaUTN-validaciones.o" "src\\eLibro.o" "src\\parser.o" 
+Info: Nothing to build for 2doParcial-Proyecto
+21:08:12 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\bibliotecaUTN-validaciones.o" "..\\src\\bibliotecaUTN-validaciones.c" 
+gcc -o 2doParcial-Proyecto.exe "src\\2doParcial-Proyecto.o" "src\\Controller.o" "src\\LinkedList.o" "src\\bibliotecaUTN-validaciones.o" "src\\eLibro.o" "src\\parser.o" 
+Info: Nothing to build for 2doParcial-Proyecto
+21:08:21 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\bibliotecaUTN-validaciones.o" "..\\src\\bibliotecaUTN-validaciones.c" 
+gcc -o 2doParcial-Proyecto.exe "src\\2doParcial-Proyecto.o" "src\\Controller.o" "src\\LinkedList.o" "src\\bibliotecaUTN-validaciones.o" "src\\eLibro.o" "src\\parser.o" 
+Info: Nothing to build for 2doParcial-Proyecto
+21:08:54 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\bibliotecaUTN-validaciones.o" "..\\src\\bibliotecaUTN-validaciones.c" 
+gcc -o 2doParcial-Proyecto.exe "src\\2doParcial-Proyecto.o" "src\\Controller.o" "src\\LinkedList.o" "src\\bibliotecaUTN-validaciones.o" "src\\eLibro.o" "src\\parser.o" 
+Info: Nothing to build for 2doParcial-Proyecto
+21:09:12 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\bibliotecaUTN-validaciones.o" "..\\src\\bibliotecaUTN-validaciones.c" 
+gcc -o 2doParcial-Proyecto.exe "src\\2doParcial-Proyecto.o" "src\\Controller.o" "src\\LinkedList.o" "src\\bibliotecaUTN-validaciones.o" "src\\eLibro.o" "src\\parser.o" 
+Info: Nothing to build for 2doParcial-Proyecto
+21:13:59 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\bibliotecaUTN-validaciones.o" "..\\src\\bibliotecaUTN-validaciones.c" 
+gcc -o 2doParcial-Proyecto.exe "src\\2doParcial-Proyecto.o" "src\\Controller.o" "src\\LinkedList.o" "src\\bibliotecaUTN-validaciones.o" "src\\eLibro.o" "src\\parser.o" 
+21:14:11 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\bibliotecaUTN-validaciones.o" "..\\src\\bibliotecaUTN-validaciones.c" 
+..\src\bibliotecaUTN-validaciones.c: In function 'utn_StringToLower':
+..\src\bibliotecaUTN-validaciones.c:654:7: warning: unused variable 'auxCadena' [-Wunused-variable]
+  char auxCadena[largoCadena];
+       ^~~~~~~~~
+gcc -o 2doParcial-Proyecto.exe "src\\2doParcial-Proyecto.o" "src\\Controller.o" "src\\LinkedList.o" "src\\bibliotecaUTN-validaciones.o" "src\\eLibro.o" "src\\parser.o" 
+Info: Nothing to build for 2doParcial-Proyecto
+21:14:23 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\2doParcial-Proyecto.o" "..\\src\\2doParcial-Proyecto.c" 
+..\src\2doParcial-Proyecto.c: In function 'main':
+..\src\2doParcial-Proyecto.c:18:14: warning: unused variable 'listaLibros' [-Wunused-variable]
+  LinkedList* listaLibros = ll_newLinkedList();
+              ^~~~~~~~~~~
+gcc -o 2doParcial-Proyecto.exe "src\\2doParcial-Proyecto.o" "src\\Controller.o" "src\\LinkedList.o" "src\\bibliotecaUTN-validaciones.o" "src\\eLibro.o" "src\\parser.o" 
+Info: Nothing to build for 2doParcial-Proyecto
+21:14:53 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\bibliotecaUTN-validaciones.o" "..\\src\\bibliotecaUTN-validaciones.c" 
+gcc -o 2doParcial-Proyecto.exe "src\\2doParcial-Proyecto.o" "src\\Controller.o" "src\\LinkedList.o" "src\\bibliotecaUTN-validaciones.o" "src\\eLibro.o" "src\\parser.o" 
+Info: Nothing to build for 2doParcial-Proyecto
+21:15:15 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\2doParcial-Proyecto.o" "..\\src\\2doParcial-Proyecto.c" 
+..\src\2doParcial-Proyecto.c: In function 'main':
+..\src\2doParcial-Proyecto.c:18:14: warning: unused variable 'listaLibros' [-Wunused-variable]
+  LinkedList* listaLibros = ll_newLinkedList();
+              ^~~~~~~~~~~
+gcc -o 2doParcial-Proyecto.exe "src\\2doParcial-Proyecto.o" "src\\Controller.o" "src\\LinkedList.o" "src\\bibliotecaUTN-validaciones.o" "src\\eLibro.o" "src\\parser.o" 
+Info: Nothing to build for 2doParcial-Proyecto
+21:16:32 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\2doParcial-Proyecto.o" "..\\src\\2doParcial-Proyecto.c" 
+..\src\2doParcial-Proyecto.c: In function 'main':
+..\src\2doParcial-Proyecto.c:18:14: warning: unused variable 'listaLibros' [-Wunused-variable]
+  LinkedList* listaLibros = ll_newLinkedList();
+              ^~~~~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Controller.o" "..\\src\\Controller.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\bibliotecaUTN-validaciones.o" "..\\src\\bibliotecaUTN-validaciones.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\eLibro.o" "..\\src\\eLibro.c" 
+gcc -o 2doParcial-Proyecto.exe "src\\2doParcial-Proyecto.o" "src\\Controller.o" "src\\LinkedList.o" "src\\bibliotecaUTN-validaciones.o" "src\\eLibro.o" "src\\parser.o" 
+Info: Nothing to build for 2doParcial-Proyecto
+21:16:41 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\2doParcial-Proyecto.o" "..\\src\\2doParcial-Proyecto.c" 
+..\src\2doParcial-Proyecto.c: In function 'main':
+..\src\2doParcial-Proyecto.c:18:14: warning: unused variable 'listaLibros' [-Wunused-variable]
+  LinkedList* listaLibros = ll_newLinkedList();
+              ^~~~~~~~~~~
+gcc -o 2doParcial-Proyecto.exe "src\\2doParcial-Proyecto.o" "src\\Controller.o" "src\\LinkedList.o" "src\\bibliotecaUTN-validaciones.o" "src\\eLibro.o" "src\\parser.o" 
+Info: Nothing to build for 2doParcial-Proyecto
+21:20:08 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\2doParcial-Proyecto.o" "..\\src\\2doParcial-Proyecto.c" 
+..\src\2doParcial-Proyecto.c: In function 'main':
+..\src\2doParcial-Proyecto.c:22:10: warning: implicit declaration of function 'eLibro_getEditorialIdByName' [-Wimplicit-function-declaration]
+  int a = eLibro_getEditorialIdByName("planeta", &id);
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\2doParcial-Proyecto.c:18:14: warning: unused variable 'listaLibros' [-Wunused-variable]
+  LinkedList* listaLibros = ll_newLinkedList();
+              ^~~~~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\eLibro.o" "..\\src\\eLibro.c" 
+gcc -o 2doParcial-Proyecto.exe "src\\2doParcial-Proyecto.o" "src\\Controller.o" "src\\LinkedList.o" "src\\bibliotecaUTN-validaciones.o" "src\\eLibro.o" "src\\parser.o" 
+Info: Nothing to build for 2doParcial-Proyecto
+21:20:33 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\2doParcial-Proyecto.o" "..\\src\\2doParcial-Proyecto.c" 
+..\src\2doParcial-Proyecto.c: In function 'main':
+..\src\2doParcial-Proyecto.c:23:10: warning: implicit declaration of function 'eLibro_getEditorialIdByName' [-Wimplicit-function-declaration]
+  int a = eLibro_getEditorialIdByName("planeta", &id);
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\2doParcial-Proyecto.c:19:14: warning: unused variable 'listaLibros' [-Wunused-variable]
+  LinkedList* listaLibros = ll_newLinkedList();
+              ^~~~~~~~~~~
+gcc -o 2doParcial-Proyecto.exe "src\\2doParcial-Proyecto.o" "src\\Controller.o" "src\\LinkedList.o" "src\\bibliotecaUTN-validaciones.o" "src\\eLibro.o" "src\\parser.o" 
+Info: Nothing to build for 2doParcial-Proyecto
+Info: Nothing to build for 2doParcial-Proyecto
+21:20:41 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\2doParcial-Proyecto.o" "..\\src\\2doParcial-Proyecto.c" 
+..\src\2doParcial-Proyecto.c: In function 'main':
+..\src\2doParcial-Proyecto.c:22:10: warning: implicit declaration of function 'eLibro_getEditorialIdByName' [-Wimplicit-function-declaration]
+  int a = eLibro_getEditorialIdByName("planeta", &id);
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\2doParcial-Proyecto.c:19:14: warning: unused variable 'listaLibros' [-Wunused-variable]
+  LinkedList* listaLibros = ll_newLinkedList();
+              ^~~~~~~~~~~
+gcc -o 2doParcial-Proyecto.exe "src\\2doParcial-Proyecto.o" "src\\Controller.o" "src\\LinkedList.o" "src\\bibliotecaUTN-validaciones.o" "src\\eLibro.o" "src\\parser.o" 
+Info: Nothing to build for 2doParcial-Proyecto
+21:21:29 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\eLibro.o" "..\\src\\eLibro.c" 
+..\src\eLibro.c: In function 'eLibro_getEditorialIdByName':
+..\src\eLibro.c:196:15: warning: passing argument 1 of 'strcmp' makes pointer from integer without a cast [-Wint-conversion]
+     if(strcmp(auxNameUpper[i], editoriales[i]) == 0)
+               ^~~~~~~~~~~~
+In file included from ..\src\eLibro.c:3:0:
+d:\programas\mingw\include\string.h:77:38: note: expected 'const char *' but argument is of type 'char'
+ _CRTIMP __cdecl __MINGW_NOTHROW  int strcmp (const char *, const char *) __MINGW_ATTRIB_PURE;
+                                      ^~~~~~
+gcc -o 2doParcial-Proyecto.exe "src\\2doParcial-Proyecto.o" "src\\Controller.o" "src\\LinkedList.o" "src\\bibliotecaUTN-validaciones.o" "src\\eLibro.o" "src\\parser.o" 
+Info: Nothing to build for 2doParcial-Proyecto
+21:22:04 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\eLibro.o" "..\\src\\eLibro.c" 
+..\src\eLibro.c: In function 'eLibro_getEditorialIdByName':
+..\src\eLibro.c:196:29: warning: passing argument 2 of 'strcmp' from incompatible pointer type [-Wincompatible-pointer-types]
+     if(strcmp(auxNameUpper, editoriales) == 0)
+                             ^~~~~~~~~~~
+In file included from ..\src\eLibro.c:3:0:
+d:\programas\mingw\include\string.h:77:38: note: expected 'const char *' but argument is of type 'char (*)[128]'
+ _CRTIMP __cdecl __MINGW_NOTHROW  int strcmp (const char *, const char *) __MINGW_ATTRIB_PURE;
+                                      ^~~~~~
+gcc -o 2doParcial-Proyecto.exe "src\\2doParcial-Proyecto.o" "src\\Controller.o" "src\\LinkedList.o" "src\\bibliotecaUTN-validaciones.o" "src\\eLibro.o" "src\\parser.o" 
+Info: Nothing to build for 2doParcial-Proyecto
+21:22:23 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\eLibro.o" "..\\src\\eLibro.c" 
+gcc -o 2doParcial-Proyecto.exe "src\\2doParcial-Proyecto.o" "src\\Controller.o" "src\\LinkedList.o" "src\\bibliotecaUTN-validaciones.o" "src\\eLibro.o" "src\\parser.o" 
+Info: Nothing to build for 2doParcial-Proyecto
+21:23:14 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\eLibro.o" "..\\src\\eLibro.c" 
+gcc -o 2doParcial-Proyecto.exe "src\\2doParcial-Proyecto.o" "src\\Controller.o" "src\\LinkedList.o" "src\\bibliotecaUTN-validaciones.o" "src\\eLibro.o" "src\\parser.o" 
+Info: Nothing to build for 2doParcial-Proyecto
+21:23:44 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\2doParcial-Proyecto.o" "..\\src\\2doParcial-Proyecto.c" 
+..\src\2doParcial-Proyecto.c: In function 'main':
+..\src\2doParcial-Proyecto.c:24:5: error: 'a' undeclared (first use in this function)
+  if(a == 0)
+     ^
+..\src\2doParcial-Proyecto.c:24:5: note: each undeclared identifier is reported only once for each function it appears in
+..\src\2doParcial-Proyecto.c:19:14: warning: unused variable 'listaLibros' [-Wunused-variable]
+  LinkedList* listaLibros = ll_newLinkedList();
+              ^~~~~~~~~~~
+21:23:46 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\2doParcial-Proyecto.o" "..\\src\\2doParcial-Proyecto.c" 
+..\src\2doParcial-Proyecto.c: In function 'main':
+..\src\2doParcial-Proyecto.c:24:5: error: 'a' undeclared (first use in this function)
+  if(a == 0)
+     ^
+..\src\2doParcial-Proyecto.c:24:5: note: each undeclared identifier is reported only once for each function it appears in
+..\src\2doParcial-Proyecto.c:19:14: warning: unused variable 'listaLibros' [-Wunused-variable]
+  LinkedList* listaLibros = ll_newLinkedList();
+              ^~~~~~~~~~~
+21:23:58 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\2doParcial-Proyecto.o" "..\\src\\2doParcial-Proyecto.c" 
+..\src\2doParcial-Proyecto.c: In function 'main':
+..\src\2doParcial-Proyecto.c:19:14: warning: unused variable 'listaLibros' [-Wunused-variable]
+  LinkedList* listaLibros = ll_newLinkedList();
+              ^~~~~~~~~~~
+..\src\2doParcial-Proyecto.c:25:3: warning: 'id' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   printf("\nEl id es: %d", id);
+   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -o 2doParcial-Proyecto.exe "src\\2doParcial-Proyecto.o" "src\\Controller.o" "src\\LinkedList.o" "src\\bibliotecaUTN-validaciones.o" "src\\eLibro.o" "src\\parser.o" 
+Info: Nothing to build for 2doParcial-Proyecto
+21:24:31 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\2doParcial-Proyecto.o" "..\\src\\2doParcial-Proyecto.c" 
+..\src\2doParcial-Proyecto.c: In function 'main':
+..\src\2doParcial-Proyecto.c:22:10: warning: implicit declaration of function 'eLibro_getEditorialIdByName' [-Wimplicit-function-declaration]
+  int a = eLibro_getEditorialIdByName("asd", &id);
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\2doParcial-Proyecto.c:19:14: warning: unused variable 'listaLibros' [-Wunused-variable]
+  LinkedList* listaLibros = ll_newLinkedList();
+              ^~~~~~~~~~~
+gcc -o 2doParcial-Proyecto.exe "src\\2doParcial-Proyecto.o" "src\\Controller.o" "src\\LinkedList.o" "src\\bibliotecaUTN-validaciones.o" "src\\eLibro.o" "src\\parser.o" 
+21:24:37 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\2doParcial-Proyecto.o" "..\\src\\2doParcial-Proyecto.c" 
+..\src\2doParcial-Proyecto.c: In function 'main':
+..\src\2doParcial-Proyecto.c:22:10: warning: implicit declaration of function 'eLibro_getEditorialIdByName' [-Wimplicit-function-declaration]
+  int a = eLibro_getEditorialIdByName("asd", &id);
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\2doParcial-Proyecto.c:19:14: warning: unused variable 'listaLibros' [-Wunused-variable]
+  LinkedList* listaLibros = ll_newLinkedList();
+              ^~~~~~~~~~~
+gcc -o 2doParcial-Proyecto.exe "src\\2doParcial-Proyecto.o" "src\\Controller.o" "src\\LinkedList.o" "src\\bibliotecaUTN-validaciones.o" "src\\eLibro.o" "src\\parser.o" 
+Info: Nothing to build for 2doParcial-Proyecto
+21:24:43 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\2doParcial-Proyecto.o" "..\\src\\2doParcial-Proyecto.c" 
+..\src\2doParcial-Proyecto.c: In function 'main':
+..\src\2doParcial-Proyecto.c:23:10: warning: implicit declaration of function 'eLibro_getEditorialIdByName' [-Wimplicit-function-declaration]
+  int a = eLibro_getEditorialIdByName("asd", &id);
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\2doParcial-Proyecto.c:20:14: warning: unused variable 'listaLibros' [-Wunused-variable]
+  LinkedList* listaLibros = ll_newLinkedList();
+              ^~~~~~~~~~~
+gcc -o 2doParcial-Proyecto.exe "src\\2doParcial-Proyecto.o" "src\\Controller.o" "src\\LinkedList.o" "src\\bibliotecaUTN-validaciones.o" "src\\eLibro.o" "src\\parser.o" 
+21:25:38 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\2doParcial-Proyecto.o" "..\\src\\2doParcial-Proyecto.c" 
+..\src\2doParcial-Proyecto.c: In function 'main':
+..\src\2doParcial-Proyecto.c:23:10: warning: implicit declaration of function 'eLibro_getEditorialIdByName' [-Wimplicit-function-declaration]
+  int a = eLibro_getEditorialIdByName("asd", &id);
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\2doParcial-Proyecto.c:33:18: warning: implicit declaration of function 'utn_getNumberLimited' [-Wimplicit-function-declaration]
+   exitoFuncion = utn_getNumberLimited(&opcionMenu,
+                  ^~~~~~~~~~~~~~~~~~~~
+..\src\2doParcial-Proyecto.c:20:14: warning: unused variable 'listaLibros' [-Wunused-variable]
+  LinkedList* listaLibros = ll_newLinkedList();
+              ^~~~~~~~~~~
+gcc -o 2doParcial-Proyecto.exe "src\\2doParcial-Proyecto.o" "src\\Controller.o" "src\\LinkedList.o" "src\\bibliotecaUTN-validaciones.o" "src\\eLibro.o" "src\\parser.o" 
+Info: Nothing to build for 2doParcial-Proyecto
+21:25:49 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\2doParcial-Proyecto.o" "..\\src\\2doParcial-Proyecto.c" 
+..\src\2doParcial-Proyecto.c: In function 'main':
+..\src\2doParcial-Proyecto.c:23:10: warning: implicit declaration of function 'eLibro_getEditorialIdByName' [-Wimplicit-function-declaration]
+  int a = eLibro_getEditorialIdByName("asd", &id);
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\2doParcial-Proyecto.c:20:14: warning: unused variable 'listaLibros' [-Wunused-variable]
+  LinkedList* listaLibros = ll_newLinkedList();
+              ^~~~~~~~~~~
+gcc -o 2doParcial-Proyecto.exe "src\\2doParcial-Proyecto.o" "src\\Controller.o" "src\\LinkedList.o" "src\\bibliotecaUTN-validaciones.o" "src\\eLibro.o" "src\\parser.o" 
+21:26:15 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\2doParcial-Proyecto.o" "..\\src\\2doParcial-Proyecto.c" 
+..\src\2doParcial-Proyecto.c: In function 'main':
+..\src\2doParcial-Proyecto.c:24:10: warning: implicit declaration of function 'eLibro_getEditorialIdByName' [-Wimplicit-function-declaration]
+  int a = eLibro_getEditorialIdByName(nombre, &id);
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\2doParcial-Proyecto.c:20:14: warning: unused variable 'listaLibros' [-Wunused-variable]
+  LinkedList* listaLibros = ll_newLinkedList();
+              ^~~~~~~~~~~
+gcc -o 2doParcial-Proyecto.exe "src\\2doParcial-Proyecto.o" "src\\Controller.o" "src\\LinkedList.o" "src\\bibliotecaUTN-validaciones.o" "src\\eLibro.o" "src\\parser.o" 
+Info: Nothing to build for 2doParcial-Proyecto
+21:26:58 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\eLibro.o" "..\\src\\eLibro.c" 
+gcc -o 2doParcial-Proyecto.exe "src\\2doParcial-Proyecto.o" "src\\Controller.o" "src\\LinkedList.o" "src\\bibliotecaUTN-validaciones.o" "src\\eLibro.o" "src\\parser.o" 
+Info: Nothing to build for 2doParcial-Proyecto
+21:27:07 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\2doParcial-Proyecto.o" "..\\src\\2doParcial-Proyecto.c" 
+..\src\2doParcial-Proyecto.c: In function 'main':
+..\src\2doParcial-Proyecto.c:24:10: warning: implicit declaration of function 'eLibro_getEditorialIdByName' [-Wimplicit-function-declaration]
+  int a = eLibro_getEditorialIdByName(nombre, &id);
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\2doParcial-Proyecto.c:20:14: warning: unused variable 'listaLibros' [-Wunused-variable]
+  LinkedList* listaLibros = ll_newLinkedList();
+              ^~~~~~~~~~~
+gcc -o 2doParcial-Proyecto.exe "src\\2doParcial-Proyecto.o" "src\\Controller.o" "src\\LinkedList.o" "src\\bibliotecaUTN-validaciones.o" "src\\eLibro.o" "src\\parser.o" 
+Info: Nothing to build for 2doParcial-Proyecto
+21:27:23 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\2doParcial-Proyecto.o" "..\\src\\2doParcial-Proyecto.c" 
+..\src\2doParcial-Proyecto.c: In function 'main':
+..\src\2doParcial-Proyecto.c:24:10: warning: implicit declaration of function 'eLibro_getEditorialIdByName' [-Wimplicit-function-declaration]
+  int a = eLibro_getEditorialIdByName(nombre, &id);
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\2doParcial-Proyecto.c:20:14: warning: unused variable 'listaLibros' [-Wunused-variable]
+  LinkedList* listaLibros = ll_newLinkedList();
+              ^~~~~~~~~~~
+gcc -o 2doParcial-Proyecto.exe "src\\2doParcial-Proyecto.o" "src\\Controller.o" "src\\LinkedList.o" "src\\bibliotecaUTN-validaciones.o" "src\\eLibro.o" "src\\parser.o" 
+Info: Nothing to build for 2doParcial-Proyecto
+21:59:44 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Controller.o" "..\\src\\Controller.c" 
+..\src\Controller.c: In function 'controller_ListLibros':
+..\src\Controller.c:28:2: warning: implicit declaration of function 'prints_Header' [-Wimplicit-function-declaration]
+  prints_Header();
+  ^~~~~~~~~~~~~
+..\src\Controller.c:39:3: warning: implicit declaration of function 'prints_Libro' [-Wimplicit-function-declaration]
+   prints_Libro(id, titulo, autor, precio, editorialNombre, 0);
+   ^~~~~~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\2doParcial-Proyecto.o" "..\\src\\2doParcial-Proyecto.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\prints.o" "..\\src\\prints.c" 
+..\src\prints.c: In function 'prints_Header':
+..\src\prints.c:17:9: warning: too many arguments for format [-Wformat-extra-args]
+  printf("\n|%-*s|%-*s|%-*s|%-*s|\n", w[0],"ID", w[1],"TITULO", w[2],"AUTOR", w[3],"PRECIO", w[4],"EDITORIAL");
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\prints.c: At top level:
+..\src\prints.c:31:6: error: conflicting types for 'prints_Libro'
+ void prints_Libro(int id, char* titulo, char* autor, float precio, char* editorial, int opcionEncabezado)
+      ^~~~~~~~~~~~
+In file included from ..\src\prints.c:6:0:
+..\src\prints.h:5:6: note: previous declaration of 'prints_Libro' was here
+ void prints_Libro(int id, char* nombre, int horasTrabajadas, int sueldo, int opcionEncabezado);
+      ^~~~~~~~~~~~
+..\src\prints.c: In function 'prints_Libro':
+..\src\prints.c:36:10: warning: too many arguments for format [-Wformat-extra-args]
+   printf("\n|%-*s|%-*s|%-*s|%-*s|\n", w[0],"ID", w[1],"TITULO", w[2],"AUTOR", w[3],"PRECIO", w[4],"EDITORIAL");
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\prints.c:39:24: warning: format '%d' expects argument of type 'int', but argument 7 has type 'char *' [-Wformat=]
+  printf("|%-*d|%-*s|%-*d|%-*d|\n", w[0], id, w[1], titulo, w[2], autor, w[3], precio, w[4], editorial);
+                        ^
+..\src\prints.c:39:29: warning: format '%d' expects argument of type 'int', but argument 9 has type 'double' [-Wformat=]
+  printf("|%-*d|%-*s|%-*d|%-*d|\n", w[0], id, w[1], titulo, w[2], autor, w[3], precio, w[4], editorial);
+                             ^
+..\src\prints.c:39:9: warning: too many arguments for format [-Wformat-extra-args]
+  printf("|%-*d|%-*s|%-*d|%-*d|\n", w[0], id, w[1], titulo, w[2], autor, w[3], precio, w[4], editorial);
+         ^~~~~~~~~~~~~~~~~~~~~~~~~
+22:00:47 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\prints.o" "..\\src\\prints.c" 
+..\src\prints.c:31:6: error: conflicting types for 'prints_Libro'
+ void prints_Libro(int id, char* titulo, char* autor, float precio, char* editorial, int opcionEncabezado)
+      ^~~~~~~~~~~~
+In file included from ..\src\prints.c:6:0:
+..\src\prints.h:5:6: note: previous declaration of 'prints_Libro' was here
+ void prints_Libro(int id, char* nombre, int horasTrabajadas, int sueldo, int opcionEncabezado);
+      ^~~~~~~~~~~~
+22:01:08 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\prints.o" "..\\src\\prints.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\parser.o" "..\\src\\parser.c" 
+gcc -o 2doParcial-Proyecto.exe "src\\2doParcial-Proyecto.o" "src\\Controller.o" "src\\LinkedList.o" "src\\bibliotecaUTN-validaciones.o" "src\\eLibro.o" "src\\parser.o" "src\\prints.o" 
+src\parser.o: In function `parser_eLibroFromText':
+D:\ANTON\utnProgramacion\03 PROGRAMACION - LABORATORIO\2doParcial\2doParcial-Proyecto\Debug/../src/parser.c:34: undefined reference to `eLibro_getEditorialByName'
+collect2.exe: error: ld returned 1 exit status
+22:01:16 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -o 2doParcial-Proyecto.exe "src\\2doParcial-Proyecto.o" "src\\Controller.o" "src\\LinkedList.o" "src\\bibliotecaUTN-validaciones.o" "src\\eLibro.o" "src\\parser.o" "src\\prints.o" 
+src\parser.o: In function `parser_eLibroFromText':
+D:\ANTON\utnProgramacion\03 PROGRAMACION - LABORATORIO\2doParcial\2doParcial-Proyecto\Debug/../src/parser.c:34: undefined reference to `eLibro_getEditorialByName'
+collect2.exe: error: ld returned 1 exit status
+22:01:52 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\parser.o" "..\\src\\parser.c" 
+gcc -o 2doParcial-Proyecto.exe "src\\2doParcial-Proyecto.o" "src\\Controller.o" "src\\LinkedList.o" "src\\bibliotecaUTN-validaciones.o" "src\\eLibro.o" "src\\parser.o" "src\\prints.o" 
+src\parser.o: In function `parser_eLibroFromText':
+D:\ANTON\utnProgramacion\03 PROGRAMACION - LABORATORIO\2doParcial\2doParcial-Proyecto\Debug/../src/parser.c:34: undefined reference to `eLibro_getEditorialByName'
+collect2.exe: error: ld returned 1 exit status
+22:02:44 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\parser.o" "..\\src\\parser.c" 
+gcc -o 2doParcial-Proyecto.exe "src\\2doParcial-Proyecto.o" "src\\Controller.o" "src\\LinkedList.o" "src\\bibliotecaUTN-validaciones.o" "src\\eLibro.o" "src\\parser.o" "src\\prints.o" 
+src\parser.o: In function `parser_eLibroFromText':
+D:\ANTON\utnProgramacion\03 PROGRAMACION - LABORATORIO\2doParcial\2doParcial-Proyecto\Debug/../src/parser.c:34: undefined reference to `eLibro_getEditorialByName'
+collect2.exe: error: ld returned 1 exit status
+22:03:28 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\eLibro.o" "..\\src\\eLibro.c" 
+gcc -o 2doParcial-Proyecto.exe "src\\2doParcial-Proyecto.o" "src\\Controller.o" "src\\LinkedList.o" "src\\bibliotecaUTN-validaciones.o" "src\\eLibro.o" "src\\parser.o" "src\\prints.o" 
+Info: Nothing to build for 2doParcial-Proyecto
+22:04:03 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Controller.o" "..\\src\\Controller.c" 
+..\src\Controller.c: In function 'controller_ListLibros':
+..\src\Controller.c:28:2: warning: implicit declaration of function 'prints_Header' [-Wimplicit-function-declaration]
+  prints_Header();
+  ^~~~~~~~~~~~~
+..\src\Controller.c:39:3: warning: implicit declaration of function 'prints_Libro' [-Wimplicit-function-declaration]
+   prints_Libro(id, titulo, autor, precio, editorialNombre, 0);
+   ^~~~~~~~~~~~
+gcc -o 2doParcial-Proyecto.exe "src\\2doParcial-Proyecto.o" "src\\Controller.o" "src\\LinkedList.o" "src\\bibliotecaUTN-validaciones.o" "src\\eLibro.o" "src\\parser.o" "src\\prints.o" 
+22:04:22 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Controller.o" "..\\src\\Controller.c" 
+gcc -o 2doParcial-Proyecto.exe "src\\2doParcial-Proyecto.o" "src\\Controller.o" "src\\LinkedList.o" "src\\bibliotecaUTN-validaciones.o" "src\\eLibro.o" "src\\parser.o" "src\\prints.o" 
+Info: Nothing to build for 2doParcial-Proyecto
+22:05:49 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Controller.o" "..\\src\\Controller.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\bibliotecaUTN-validaciones.o" "..\\src\\bibliotecaUTN-validaciones.c" 
+gcc -o 2doParcial-Proyecto.exe "src\\2doParcial-Proyecto.o" "src\\Controller.o" "src\\LinkedList.o" "src\\bibliotecaUTN-validaciones.o" "src\\eLibro.o" "src\\parser.o" "src\\prints.o" 
+Info: Nothing to build for 2doParcial-Proyecto
+Info: Nothing to build for 2doParcial-Proyecto
+Info: Nothing to build for 2doParcial-Proyecto
+22:06:47 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Controller.o" "..\\src\\Controller.c" 
+gcc -o 2doParcial-Proyecto.exe "src\\2doParcial-Proyecto.o" "src\\Controller.o" "src\\LinkedList.o" "src\\bibliotecaUTN-validaciones.o" "src\\eLibro.o" "src\\parser.o" "src\\prints.o" 
+Info: Nothing to build for 2doParcial-Proyecto
+Info: Nothing to build for 2doParcial-Proyecto
+Info: Nothing to build for 2doParcial-Proyecto
+Info: Nothing to build for 2doParcial-Proyecto
+22:08:36 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Controller.o" "..\\src\\Controller.c" 
+gcc -o 2doParcial-Proyecto.exe "src\\2doParcial-Proyecto.o" "src\\Controller.o" "src\\LinkedList.o" "src\\bibliotecaUTN-validaciones.o" "src\\eLibro.o" "src\\parser.o" "src\\prints.o" 
+Info: Nothing to build for 2doParcial-Proyecto
+22:09:50 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\parser.o" "..\\src\\parser.c" 
+gcc -o 2doParcial-Proyecto.exe "src\\2doParcial-Proyecto.o" "src\\Controller.o" "src\\LinkedList.o" "src\\bibliotecaUTN-validaciones.o" "src\\eLibro.o" "src\\parser.o" "src\\prints.o" 
+Info: Nothing to build for 2doParcial-Proyecto
+Info: Nothing to build for 2doParcial-Proyecto
+22:11:03 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Controller.o" "..\\src\\Controller.c" 
+gcc -o 2doParcial-Proyecto.exe "src\\2doParcial-Proyecto.o" "src\\Controller.o" "src\\LinkedList.o" "src\\bibliotecaUTN-validaciones.o" "src\\eLibro.o" "src\\parser.o" "src\\prints.o" 
+Info: Nothing to build for 2doParcial-Proyecto
+22:11:30 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Controller.o" "..\\src\\Controller.c" 
+gcc -o 2doParcial-Proyecto.exe "src\\2doParcial-Proyecto.o" "src\\Controller.o" "src\\LinkedList.o" "src\\bibliotecaUTN-validaciones.o" "src\\eLibro.o" "src\\parser.o" "src\\prints.o" 
+Info: Nothing to build for 2doParcial-Proyecto
+22:11:49 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\prints.o" "..\\src\\prints.c" 
+gcc -o 2doParcial-Proyecto.exe "src\\2doParcial-Proyecto.o" "src\\Controller.o" "src\\LinkedList.o" "src\\bibliotecaUTN-validaciones.o" "src\\eLibro.o" "src\\parser.o" "src\\prints.o" 
+Info: Nothing to build for 2doParcial-Proyecto
+22:12:25 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\prints.o" "..\\src\\prints.c" 
+gcc -o 2doParcial-Proyecto.exe "src\\2doParcial-Proyecto.o" "src\\Controller.o" "src\\LinkedList.o" "src\\bibliotecaUTN-validaciones.o" "src\\eLibro.o" "src\\parser.o" "src\\prints.o" 
+Info: Nothing to build for 2doParcial-Proyecto
+22:12:52 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\prints.o" "..\\src\\prints.c" 
+gcc -o 2doParcial-Proyecto.exe "src\\2doParcial-Proyecto.o" "src\\Controller.o" "src\\LinkedList.o" "src\\bibliotecaUTN-validaciones.o" "src\\eLibro.o" "src\\parser.o" "src\\prints.o" 
+Info: Nothing to build for 2doParcial-Proyecto
+22:13:21 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\prints.o" "..\\src\\prints.c" 
+gcc -o 2doParcial-Proyecto.exe "src\\2doParcial-Proyecto.o" "src\\Controller.o" "src\\LinkedList.o" "src\\bibliotecaUTN-validaciones.o" "src\\eLibro.o" "src\\parser.o" "src\\prints.o" 
+Info: Nothing to build for 2doParcial-Proyecto
+22:13:40 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\prints.o" "..\\src\\prints.c" 
+gcc -o 2doParcial-Proyecto.exe "src\\2doParcial-Proyecto.o" "src\\Controller.o" "src\\LinkedList.o" "src\\bibliotecaUTN-validaciones.o" "src\\eLibro.o" "src\\parser.o" "src\\prints.o" 
+Info: Nothing to build for 2doParcial-Proyecto
+Info: Nothing to build for 2doParcial-Proyecto
+Info: Nothing to build for 2doParcial-Proyecto
+Info: Nothing to build for 2doParcial-Proyecto
+22:29:02 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\2doParcial-Proyecto.o" "..\\src\\2doParcial-Proyecto.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\parser.o" "..\\src\\parser.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Controller.o" "..\\src\\Controller.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\eLibro.o" "..\\src\\eLibro.c" 
+gcc -o 2doParcial-Proyecto.exe "src\\2doParcial-Proyecto.o" "src\\Controller.o" "src\\LinkedList.o" "src\\bibliotecaUTN-validaciones.o" "src\\eLibro.o" "src\\parser.o" "src\\prints.o" 
+Info: Nothing to build for 2doParcial-Proyecto
+Info: Nothing to build for 2doParcial-Proyecto
+Info: Nothing to build for 2doParcial-Proyecto
+22:34:28 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\parser.o" "..\\src\\parser.c" 
+gcc -o 2doParcial-Proyecto.exe "src\\2doParcial-Proyecto.o" "src\\Controller.o" "src\\LinkedList.o" "src\\bibliotecaUTN-validaciones.o" "src\\eLibro.o" "src\\parser.o" "src\\prints.o" 
+Info: Nothing to build for 2doParcial-Proyecto
+22:35:02 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\parser.o" "..\\src\\parser.c" 
+gcc -o 2doParcial-Proyecto.exe "src\\2doParcial-Proyecto.o" "src\\Controller.o" "src\\LinkedList.o" "src\\bibliotecaUTN-validaciones.o" "src\\eLibro.o" "src\\parser.o" "src\\prints.o" 
+Info: Nothing to build for 2doParcial-Proyecto
+22:35:27 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\parser.o" "..\\src\\parser.c" 
+gcc -o 2doParcial-Proyecto.exe "src\\2doParcial-Proyecto.o" "src\\Controller.o" "src\\LinkedList.o" "src\\bibliotecaUTN-validaciones.o" "src\\eLibro.o" "src\\parser.o" "src\\prints.o" 
+Info: Nothing to build for 2doParcial-Proyecto
+22:36:27 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\parser.o" "..\\src\\parser.c" 
+gcc -o 2doParcial-Proyecto.exe "src\\2doParcial-Proyecto.o" "src\\Controller.o" "src\\LinkedList.o" "src\\bibliotecaUTN-validaciones.o" "src\\eLibro.o" "src\\parser.o" "src\\prints.o" 
+Info: Nothing to build for 2doParcial-Proyecto
+22:37:16 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\eLibro.o" "..\\src\\eLibro.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\parser.o" "..\\src\\parser.c" 
+gcc -o 2doParcial-Proyecto.exe "src\\2doParcial-Proyecto.o" "src\\Controller.o" "src\\LinkedList.o" "src\\bibliotecaUTN-validaciones.o" "src\\eLibro.o" "src\\parser.o" "src\\prints.o" 
+Info: Nothing to build for 2doParcial-Proyecto
+22:39:15 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\2doParcial-Proyecto.o" "..\\src\\2doParcial-Proyecto.c" 
+gcc -o 2doParcial-Proyecto.exe "src\\2doParcial-Proyecto.o" "src\\Controller.o" "src\\LinkedList.o" "src\\bibliotecaUTN-validaciones.o" "src\\eLibro.o" "src\\parser.o" "src\\prints.o" 
+Info: Nothing to build for 2doParcial-Proyecto
+Info: Nothing to build for 2doParcial-Proyecto
+Info: Nothing to build for 2doParcial-Proyecto
+Info: Nothing to build for 2doParcial-Proyecto
+22:56:44 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\2doParcial-Proyecto.o" "..\\src\\2doParcial-Proyecto.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\parser.o" "..\\src\\parser.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Controller.o" "..\\src\\Controller.c" 
+..\src\Controller.c: In function 'controller_recalcularPrecio':
+..\src\Controller.c:89:22: warning: passing argument 2 of 'll_map' from incompatible pointer type [-Wincompatible-pointer-types]
+  ll_map(pListLibros, eLibro_CalculaDescuentos);
+                      ^~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ..\src\Controller.c:9:0:
+..\src\LinkedList.h:56:13: note: expected 'void (*)(void *)' but argument is of type 'int (*)(eLibro *) {aka int (*)(struct <anonymous> *)}'
+ LinkedList* ll_map(LinkedList* this, void (*pFunc)(void* pElement));
+             ^~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\eLibro.o" "..\\src\\eLibro.c" 
+..\src\eLibro.c: In function 'eLibro_CalculaDescuentos':
+..\src\eLibro.c:250:8: warning: variable 'precioFinal' set but not used [-Wunused-but-set-variable]
+  float precioFinal;
+        ^~~~~~~~~~~
+gcc -o 2doParcial-Proyecto.exe "src\\2doParcial-Proyecto.o" "src\\Controller.o" "src\\LinkedList.o" "src\\bibliotecaUTN-validaciones.o" "src\\eLibro.o" "src\\parser.o" "src\\prints.o" 
+22:58:16 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Controller.o" "..\\src\\Controller.c" 
+gcc -o 2doParcial-Proyecto.exe "src\\2doParcial-Proyecto.o" "src\\Controller.o" "src\\LinkedList.o" "src\\bibliotecaUTN-validaciones.o" "src\\eLibro.o" "src\\parser.o" "src\\prints.o" 
+Info: Nothing to build for 2doParcial-Proyecto
+22:59:24 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Controller.o" "..\\src\\Controller.c" 
+gcc -o 2doParcial-Proyecto.exe "src\\2doParcial-Proyecto.o" "src\\Controller.o" "src\\LinkedList.o" "src\\bibliotecaUTN-validaciones.o" "src\\eLibro.o" "src\\parser.o" "src\\prints.o" 
+Info: Nothing to build for 2doParcial-Proyecto
+23:00:11 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\eLibro.o" "..\\src\\eLibro.c" 
+gcc -o 2doParcial-Proyecto.exe "src\\2doParcial-Proyecto.o" "src\\Controller.o" "src\\LinkedList.o" "src\\bibliotecaUTN-validaciones.o" "src\\eLibro.o" "src\\parser.o" "src\\prints.o" 
+Info: Nothing to build for 2doParcial-Proyecto
+19:53:04 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\2doParcial-Proyecto.o" "..\\src\\2doParcial-Proyecto.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\parser.o" "..\\src\\parser.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Controller.o" "..\\src\\Controller.c" 
+gcc -o 2doParcial-Proyecto.exe "src\\2doParcial-Proyecto.o" "src\\Controller.o" "src\\LinkedList.o" "src\\bibliotecaUTN-validaciones.o" "src\\eLibro.o" "src\\parser.o" "src\\prints.o" 
+Info: Nothing to build for 2doParcial-Proyecto
+Info: Nothing to build for 2doParcial-Proyecto
+21:24:39 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Controller.o" "..\\src\\Controller.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\2doParcial-Proyecto.o" "..\\src\\2doParcial-Proyecto.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\LinkedList.o" "..\\src\\LinkedList.c" 
+..\src\LinkedList.c: In function 'll_count':
+..\src\LinkedList.c:557:7: error: variable or field 'eElement' declared void
+  void eElement;
+       ^~~~~~~~
+..\src\LinkedList.c:563:13: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+    eElement = ll_get(this, i);
+             ^
+..\src\LinkedList.c:564:16: warning: comparison between pointer and integer
+    if(eElement != NULL)
+                ^~
+..\src\LinkedList.c:565:29: warning: passing argument 1 of 'pFunc' makes pointer from integer without a cast [-Wint-conversion]
+     salida = salida + pFunc(eElement);
+                             ^~~~~~~~
+..\src\LinkedList.c:565:29: note: expected 'void *' but argument is of type 'int'
+21:24:59 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\LinkedList.o" "..\\src\\LinkedList.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\parser.o" "..\\src\\parser.c" 
+gcc -o 2doParcial-Proyecto.exe "src\\2doParcial-Proyecto.o" "src\\Controller.o" "src\\LinkedList.o" "src\\bibliotecaUTN-validaciones.o" "src\\eLibro.o" "src\\parser.o" "src\\prints.o" 
+Info: Nothing to build for 2doParcial-Proyecto
+21:30:56 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Controller.o" "..\\src\\Controller.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\2doParcial-Proyecto.o" "..\\src\\2doParcial-Proyecto.c" 
+..\src\2doParcial-Proyecto.c: In function 'main':
+..\src\2doParcial-Proyecto.c:54:5: error: duplicate case value
+     case 4:
+     ^~~~
+..\src\2doParcial-Proyecto.c:51:5: error: previously used here
+     case 4:
+     ^~~~
+21:31:09 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\2doParcial-Proyecto.o" "..\\src\\2doParcial-Proyecto.c" 
+gcc -o 2doParcial-Proyecto.exe "src\\2doParcial-Proyecto.o" "src\\Controller.o" "src\\LinkedList.o" "src\\bibliotecaUTN-validaciones.o" "src\\eLibro.o" "src\\parser.o" "src\\prints.o" 
+Info: Nothing to build for 2doParcial-Proyecto
+Info: Nothing to build for 2doParcial-Proyecto
+Info: Nothing to build for 2doParcial-Proyecto
+Info: Nothing to build for 2doParcial-Proyecto
+22:01:05 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\2doParcial-Proyecto.o" "..\\src\\2doParcial-Proyecto.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\parser.o" "..\\src\\parser.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\LinkedList.o" "..\\src\\LinkedList.c" 
+..\src\LinkedList.c:7:14: error: static declaration of 'getNode' follows non-static declaration
+ static Node* getNode(LinkedList* this, int nodeIndex);
+              ^~~~~~~
+In file included from ..\src\LinkedList.c:4:0:
+..\src\LinkedList.h:51:7: note: previous declaration of 'getNode' was here
+ Node* getNode(LinkedList* this, int nodeIndex);
+       ^~~~~~~
+..\src\LinkedList.c:8:12: error: static declaration of 'addNode' follows non-static declaration
+ static int addNode(LinkedList* this, int nodeIndex,void* pElement);
+            ^~~~~~~
+In file included from ..\src\LinkedList.c:4:0:
+..\src\LinkedList.h:53:5: note: previous declaration of 'addNode' was here
+ int addNode(LinkedList* this, int nodeIndex,void* pElement);
+     ^~~~~~~
+22:02:11 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\2doParcial-Proyecto.o" "..\\src\\2doParcial-Proyecto.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Controller.o" "..\\src\\Controller.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\LinkedList.o" "..\\src\\LinkedList.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\eLibro.o" "..\\src\\eLibro.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\parser.o" "..\\src\\parser.c" 
+gcc -o 2doParcial-Proyecto.exe "src\\2doParcial-Proyecto.o" "src\\Controller.o" "src\\LinkedList.o" "src\\bibliotecaUTN-validaciones.o" "src\\eLibro.o" "src\\parser.o" "src\\prints.o" 
+Info: Nothing to build for 2doParcial-Proyecto
+22:05:45 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\parser.o" "..\\src\\parser.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\2doParcial-Proyecto.o" "..\\src\\2doParcial-Proyecto.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\LinkedList.o" "..\\src\\LinkedList.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Controller.o" "..\\src\\Controller.c" 
+gcc -o 2doParcial-Proyecto.exe "src\\2doParcial-Proyecto.o" "src\\Controller.o" "src\\LinkedList.o" "src\\bibliotecaUTN-validaciones.o" "src\\eLibro.o" "src\\parser.o" "src\\prints.o" 
+Info: Nothing to build for 2doParcial-Proyecto
+Info: Nothing to build for 2doParcial-Proyecto

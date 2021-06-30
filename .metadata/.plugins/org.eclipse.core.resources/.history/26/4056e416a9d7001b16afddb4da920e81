@@ -1,0 +1,35 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <ctype.h>
+#include <conio.h>
+#include "LinkedList.h"
+#include "elibro.h"
+#include "parser.h"
+
+int parser_eLibroFromText(FILE* pFile , LinkedList* pListLibros)
+{
+	int exito = -1;
+	int contPropiedades = 0;
+	char bufferLibro[CANT_PROP_ELIBRO][MAX_CHAR_ELIBRO];
+
+
+	eLibro* auxLibro = NULL;
+
+
+	fscanf(pFile, "%[^,], %[^,], %[^,], %[^,], %[^\n]\n", bufferLibro[0], bufferLibro[1], bufferLibro[2], bufferLibro[3], bufferLibro[4]);
+	fflush(stdin);
+
+	while(!feof(pFile))
+	{
+		contPropiedades = fscanf(pFile, "%[^,], %[^,], %[^,], %[^,], %[^\n]\n",
+					             bufferLibro[0], bufferLibro[1], bufferLibro[2], bufferLibro[3], bufferLibro[4]);
+
+		if(contPropiedades < CANT_PROP_ELIBRO)
+		{
+			break;
+		}
+	}
+
+	return exito;
+}

@@ -1,0 +1,30 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <ctype.h>
+#include <conio.h>
+#include "LinkedList.h"
+#include "elibro.h"
+#include "eEditorial.h"
+#include "parser.h"
+
+int parser_eLibroFromText(FILE* pFile , LinkedList* pArrayListEmployee)
+{
+	int exito = -1;
+	int contPropiedades;
+	char bufferLibro[CANT_PROP_ELIBRO][MAX_CHAR_ELIBRO];
+	char vufferEditorial[CANT_STRUCT_EDITORIAL][MAX_CHAR_EDITORIAL];
+
+	eLibro* auxLibro = NULL;
+	eEditorial* auxEditorial = NULL;
+
+	fscanf(pFile, "%[^,], %[^,], %[^,], %[^,], %[^\n]\n", bufferLibro[0], bufferLibro[1], bufferLibro[2], bufferLibro[3], bufferLibro[4]);
+	fflush(stdin);
+
+	while(!feof(pFile))
+	{
+		contPropiedades
+	}
+
+	return exito;
+}

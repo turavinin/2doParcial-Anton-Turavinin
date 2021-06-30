@@ -1,0 +1,7 @@
+#ifndef CONTROLLER_H_
+#define CONTROLLER_H_
+#include "LinkedList.h"
+
+int controller_loadFromText(LinkedList* pListLibros);
+
+#endif

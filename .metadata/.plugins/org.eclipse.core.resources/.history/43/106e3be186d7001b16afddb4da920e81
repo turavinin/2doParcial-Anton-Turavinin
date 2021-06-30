@@ -1,0 +1,18 @@
+#ifndef ELIBRO_H_
+#define ELIBRO_H_
+#define MAX_CHAR 128
+#define CANT_PROP_ELIBRO 5
+
+
+typedef struct
+{
+	int id;
+	char titulo[MAX_CHAR];
+	char autor[MAX_CHAR];
+	float precio;
+	int editorialId;
+}eLibro;
+
+
+
+#endif

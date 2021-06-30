@@ -1,0 +1,48 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <ctype.h>
+#include <conio.h>
+#include "LinkedList.h"
+#include "elibro.h"
+#include "parser.h"
+
+int parser_eLibroFromText(FILE* pFile , LinkedList* pListLibros)
+{
+	int exito = -1;
+	int contPropiedades = 0;
+	int auxEditorialId;
+	char bufferLibro[CANT_PROP_ELIBRO][MAX_CHAR_ELIBRO];
+	eLibro* nuevoLibro = NULL;
+
+
+	fscanf(pFile, "%[^,], %[^,], %[^,], %[^,], %[^\n]\n", bufferLibro[0], bufferLibro[1], bufferLibro[2], bufferLibro[3], bufferLibro[4]);
+	fflush(stdin);
+
+	while(!feof(pFile))
+	{
+		contPropiedades = fscanf(pFile, "%[^,], %[^,], %[^,], %[^,], %[^\n]\n",
+					             bufferLibro[0], bufferLibro[1], bufferLibro[2], bufferLibro[3], bufferLibro[4]);
+
+		if(contPropiedades < CANT_PROP_ELIBRO)
+		{
+			break;
+		}
+
+
+		nuevoLibro = eLibro_newParametros(bufferLibro[0], bufferLibro[1], bufferLibro[2], bufferLibro[3], "0");
+		if(nuevoLibro != NULL &&
+		   eLibro_getEditorialByName(bufferLibro[4], &auxEditorialId) == 0 &&
+		   eLibro_setEditorialId(nuevoLibro, auxEditorialId) == 0){
+
+
+
+			exito = eLibro_getEditorialByName(bufferLibro[4], &auxEditorialId);
+			exito = eLibro_setEditorialId(nuevoLibro, auxEditorialId);
+
+			if(exito == 0)
+				ll_add(pListLibros, nuevoLibro);
+		}
+	}
+	return exito;
+}

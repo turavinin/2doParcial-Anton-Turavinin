@@ -1,0 +1,11 @@
+#ifndef EEDITORIALES_H_
+#define EEDITORIALES_H_
+#define MAX_CHAR 128
+
+typedef struct{
+
+}eEditorial;
+
+
+
+#endif
