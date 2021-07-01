@@ -135,7 +135,7 @@ int eLibro_getEditorialByName(char* editorialNombre, int* id);
  */
 int eLibro_getEditorialNamyById(int id, char* editorialName);
 
-/** \brief Funcion criterio para ordenar la lista de libros segun autor ascendentemente
+/** \brief Funcion criterio para ordenar la lista de libros segun autor descendentemente
  *
  * \param autorPrimero void*
  * \param autorSegundo void*

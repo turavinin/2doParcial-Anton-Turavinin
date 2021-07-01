@@ -135,7 +135,7 @@ int eLibro_getEditorialByName(char* editorialNombre, int* id);
  */
 int eLibro_getEditorialNamyById(int id, char* editorialName);
 
-/** \brief Funcion criterio para ordenar la lista de libros segun autor ascendentemente
+/** \brief Funcion criterio para ordenar la lista de libros segun autor descendentemente
  *
  * \param autorPrimero void*
  * \param autorSegundo void*
@@ -144,6 +144,8 @@ int eLibro_getEditorialNamyById(int id, char* editorialName);
  */
 int eLibro_OrdenaAutorAscen(void* autorPrimero, void* autorSegundo);
 
+int eLibro_OrdenaAutorAscen2(eLibro* thisPrimero, eLibro* thisSegundo);
+
 /** \brief Funcion criterio para calcular el descuento de los libros
  *
  * \param this eLibro*
@@ -151,5 +153,7 @@ int eLibro_OrdenaAutorAscen(void* autorPrimero, void* autorSegundo);
  *
  */
 int eLibro_CalculaDescuentos(eLibro* this);
+
+
 
 #endif

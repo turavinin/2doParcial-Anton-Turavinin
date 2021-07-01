@@ -245,6 +245,18 @@ int eLibro_OrdenaAutorAscen(void* autorPrimero, void* autorSegundo)
 }
 
 
+int eLibro_OrdenaAutorAscen2(void* autorPrimero, void* autorSegundo)
+{
+	int exito = -1;
+
+	if(strcmp((*(eLibro*)autorPrimero).autor, (*(eLibro*)autorSegundo).autor) > 0)
+	{
+		exito = 1;
+	}
+
+	return exito;
+}
+
 int eLibro_CalculaDescuentos(eLibro* this)
 {
 	int exito = -1;

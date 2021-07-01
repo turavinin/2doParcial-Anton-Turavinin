@@ -1,1 +1,9 @@
-Info: Nothing to build for 2doParcial-Proyecto
+22:28:05 **** Incremental Build of configuration Debug for project 2doParcial-Proyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\eLibro.o" "..\\src\\eLibro.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Controller.o" "..\\src\\Controller.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\parser.o" "..\\src\\parser.c" 
+gcc -o 2doParcial-Proyecto.exe "src\\2doParcial-Proyecto.o" "src\\Controller.o" "src\\LinkedList.o" "src\\bibliotecaUTN-validaciones.o" "src\\eLibro.o" "src\\parser.o" "src\\prints.o" 
+
+22:28:08 Build Finished. 0 errors, 0 warnings. (took 2s.945ms)
+
