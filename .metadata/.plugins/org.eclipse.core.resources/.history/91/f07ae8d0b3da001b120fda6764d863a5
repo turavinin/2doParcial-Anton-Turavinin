@@ -7,7 +7,12 @@
 static Node* getNode(LinkedList* this, int nodeIndex);
 static int addNode(LinkedList* this, int nodeIndex,void* pElement);
 
-
+/** \brief Crea un nuevo LinkedList en memoria de manera dinamica
+ *
+ *  \param void
+ *  \return LinkedList* Retorna (NULL) en el caso de no conseguir espacio en memoria
+ *                      o el puntero al espacio reservado
+ */
 LinkedList* ll_newLinkedList(void)
 {
     LinkedList* this= NULL;
@@ -22,6 +27,12 @@ LinkedList* ll_newLinkedList(void)
     return this;
 }
 
+/** \brief Retorna la cantidad de elementos de la lista
+ *
+ * \param this LinkedList* Puntero a la lista
+ * \return int Retorna (-1) si el puntero es NULL o la cantidad de elementos de la lista
+ *
+ */
 int ll_len(LinkedList* this)
 {
 	int returnAux = -1;
@@ -57,6 +68,7 @@ static Node* getNode(LinkedList* this, int nodeIndex)
 
     return nodo;
 }
+
 
 /** \brief Agrega y enlaza un nuevo nodo a la lista
  *
@@ -103,6 +115,7 @@ static int addNode(LinkedList* this, int nodeIndex,void* pElement)
 
     return exito;
 }
+
 
 
 int ll_add(LinkedList* this, void* pElement)

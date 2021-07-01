@@ -196,23 +196,7 @@ LinkedList* ll_clone(LinkedList* this);
  */
 int ll_sort(LinkedList* this, int (*pFunc)(void* ,void*), int order);
 
-/** \brief Retorna una linkedlist mapeada dependiendo a la funcion criterio recibida
- * \param pList LinkedList* Puntero a la lista
- * \param pFunc (*pFunc) Puntero a la funcion criterio
- * \return LinkedList* Retorna  la linkedlist mapeada
- */
 LinkedList* ll_map(LinkedList* this, void (*pFunc)(void* pElement));
 
-/** \brief Filtra la lista original retornando una linkedlist con los elementos seleccionados dependiendo a la funcion criterio
- * \param pList LinkedList* Puntero a la lista
- * \param pFunc (*pFunc) Puntero a la funcion criterio
- * \return LinkedList* Retorna  la linkedlist mapeada
- */
 LinkedList* ll_filter(LinkedList* this, int (*pFunc)(void* pElemenet));
-
-/** \brief Realiza una acumulación con el resultado de la funcion criterio pasada por parametro.
- * \param pList LinkedList* Puntero a la lista
- * \param pFunc (*pFunc) Puntero a la funcion criterio
- * \return int* Retorna el total acumulado.
- */
 int ll_count(LinkedList* this, int (*pFunc)(void* pElemenet));

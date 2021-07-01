@@ -25,7 +25,7 @@ int main(void) {
 		exitoFuncion = utn_getNumberLimited(&opcionMenu,
 				"\n|-------------------------MENU-----------------------------|"
 				"\n| 1. Cargar los datos desde archivo.                       |"
-				"\n| 2. Ordenar lista ascendentemente según el autor.         |"
+				"\n| 2. Ordenar lista ascendentemente según el autor.        |"
 				"\n| 3. Imprimir los datos de los libros.                     |"
 				"\n| 4. Calcular descuentos.                                  |"
 				"\n| 5. Generar archivo (mapeado.csv).                        |"
